@@ -13,21 +13,6 @@ export class Reviews {
       <div class="container">
         <h2 class="reviews__title title">Отзывы коллег</h2>
         <ul class="reviews__video-list">
-        ${this.videos.map((video) => {
-            return `
-                <li class="reviews__video-item">
-                    <video
-                    poster="${video.poster}"
-                    src="${video.url}"
-                    controls
-                    muted
-                    width="320"
-                    height="496"
-                    ></video>
-                </li>
-            `
-        }).join('')}
-        </ul>
         <ul class="reviews-comments__list">
         ${this.comments.map((comment) => {
             return `
