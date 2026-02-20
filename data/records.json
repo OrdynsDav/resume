@@ -1,0 +1,36 @@
+{
+  "records": [
+    {
+      "title": "Год в разработке",
+      "backgroundUrl": ""
+    },
+    {
+      "title": "> 5 проектов в портфолио",
+      "backgroundUrl": ""
+    },
+    {
+      "title": "Научился разрабатывать на React",
+      "backgroundUrl": ""
+    },
+    {
+      "title": "Разработан SPA с нуля на чистом JS",
+      "backgroundUrl": ""
+    },
+    {
+      "title": "Разработан SPA с нуля на чистом TS",
+      "backgroundUrl": ""
+    },
+    {
+      "title": "Научился работать с Git",
+      "backgroundUrl": ""
+    },
+    {
+      "title": "Внедрена адаптивная верстка на всех страницах",
+      "backgroundUrl": ""
+    },
+    {
+      "title": "Разработан многостраничный SPA с нуля на NextJS и React",
+      "backgroundUrl": ""
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+.user {
+    &-inner {
+        display: flex;
+        gap: 20px;
+
+        @media (width <=1150px) {
+            flex-direction: column-reverse;
+        }
+
+        &__description {
+            flex: 1;
+            background-color: var(--secondary-bc);
+            padding: 70px 80px;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+
+            @include vp-1520 {
+                padding: 50px 60px;
+            }
+
+            @include vp-850 {
+                padding: 30px 40px;
+            }
+
+            @include vp-550 {
+                padding: 30px;
+            }
+        }
+
+        &__fullname {
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 56px;
+            margin: 0 0 8px;
+            color: var(--secondary-color);
+
+            @include vp-1520 {
+                font-size: 40px;
+                line-height: 44px;
+            }
+
+            @include vp-850 {
+                font-size: 36px;
+                line-height: 40px;
+            }
+
+            @include vp-550 {
+                font-size: 30px;
+                line-height: 32px;
+            }
+        }
+
+        &__profession {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28px;
+            margin: 0 0 43px;
+            color: var(--secondary-color);
+
+            @include vp-1520 {
+                font-size: 20px;
+                line-height: 24px;
+                margin: 0 0 35px;
+            }
+
+            @include vp-850 {
+                font-size: 18px;
+                line-height: 22px;
+                margin-bottom: 30px;
+            }
+
+            @include vp-850 {
+                font-size: 16px;
+                line-height: 20px;
+                margin-bottom: 25px;
+            }
+        }
+
+        &__text {
+            font-size: 20px;
+            line-height: 24px;
+            color: var(--color-gray-3);
+            margin: 0 0 90px;
+
+            @include vp-1520 {
+                font-size: 18px;
+                line-height: 22px;
+                margin: 0 0 60px;
+            }
+
+            @include vp-850 {
+                font-size: 16px;
+                line-height: 20px;
+                margin: 0 0 50px;
+            }
+
+            @include vp-550 {
+                font-size: 14px;
+                line-height: 18px;
+                margin: 0 0 40px;
+            }
+        }
+
+        &__actions {
+            display: flex;
+            gap: 40px;
+
+            @include vp-1520 {
+                gap: 30px;
+            }
+
+            @include vp-850 {
+                flex-direction: column;
+                gap: 24px;
+            }
+
+            @include vp-700 {
+                gap: 20px;
+            }
+
+            @include vp-550 {
+                gap: 16px;
+            }
+        }
+
+        &__link {
+            font-size: 16px;
+            line-height: 24px;
+            padding: 11px 40px;
+            display: grid;
+            place-items: center;
+            background-color: #fff;
+            border-radius: 8px;
+
+            @include vp-1520 {
+                font-size: 14px;
+                line-height: 18px;
+            }
+
+            @include vp-850 {
+                width: 100%;
+            }
+
+            &--transparent {
+                background-color: transparent;
+                border: 1px solid var(--color-white);
+                color: var(--color-white);
+            }
+        }
+
+        &__photo {
+            display: grid;
+            place-items: center;
+            overflow: hidden;
+            border-radius: 16px;
+            background-color: var(--secondary-bc);
+
+            svg {
+                @include vp-1520 {
+                    width: 350px;
+                    height: 320px;
+                }
+
+                @media (width <=450px) {
+                    width: 280px;
+                    height: 260px;
+                }
+            }
+        }
+    }
+}

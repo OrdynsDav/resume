@@ -1,0 +1,21 @@
+.container {
+    padding: 0 130px;
+    max-width: 1920px;
+    margin: 0 auto;
+
+    @include vp-1200{
+        padding: 0 80px;
+    }
+
+    @include vp-850 {
+        padding: 0 60px;
+    }
+
+    @include vp-550 {
+        padding: 0 40px;
+    }
+
+    @media (width <=450px) {
+        padding: 0 20px;
+    }
+}

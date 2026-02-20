@@ -1,0 +1,64 @@
+.social {
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        @include vp-1050 {
+            gap: 30px;
+        }
+
+        @include vp-850 {
+            gap: 20px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        font-family: var(--secondary-font);
+        font-size: 16px;
+
+        @include vp-1200 {
+            gap: 30px;
+            justify-content: unset;
+        }
+
+        @include vp-850 {
+            font-size: 14px;
+        }
+
+        @include vp-550 {
+            gap: 16px;
+        }
+
+        @include vp-460 {
+            font-size: 12px;
+            gap: 14px;
+        }
+
+        &:last-child {
+            white-space: nowrap;
+        }
+    }
+
+    &__head {
+        color: var(--color-gray);
+        min-width: 160px;
+
+        @media (1200px >= width > 1050px) {
+            min-width: 100px;
+        }
+
+        @include vp-460 {
+            min-width: 130px;
+        }
+    }
+
+    &__text {
+        color: var(--accent-color);
+        flex: 1;
+    }
+}

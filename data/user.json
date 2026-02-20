@@ -1,0 +1,26 @@
+{
+  "name": "Давит",
+  "surname": "Акобян",
+  "patronymic": "Варданович",
+  "photoUrl": "",
+  "profession": "Frontend-разработчик",
+  "about": "Я Frontend-разработчик, занимающийся разработкой пользовательских интерфейсов уже более года. Специализируюсь на создании современных веб-приложений с использованием HTML, CSS/SCSS, JavaScript/TypeSctipt и фреймворков вроде NextJs совместно с React. Имею опыт работы с Git для контроля версий и размещения проектов на GitHub. Стремлюсь к постоянному совершенствованию навыков, изучаю новые технологии и готов к интересным проектам. Живу в Пскове и открыт для удаленной работы.",
+  "citizenship": "Россия",
+  "city": {
+    "name": "Псков",
+    "status": "не готов к переезду"
+  },
+  "social": {
+    "telegram": {
+      "name": "@davohakk",
+      "link": "https://web.telegram.org/a/#6627213813"
+    },
+    "email": {
+      "name": "davohak2009@gmail.com",
+      "link": "davohak2009@gmail.com"
+    },
+    "phone": "+7-(911)-372-07-88",
+    "vk": "https://vk.com/davohak"
+  },
+  "portfolio": "https://github.com/OrdynsDav"
+}

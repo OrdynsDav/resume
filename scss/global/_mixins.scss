@@ -1,0 +1,41 @@
+@mixin vp-460 {
+    @media (width <=460px) {
+        @content;
+    }
+}
+
+@mixin vp-550 {
+    @media (width <=550px) {
+        @content;
+    }
+}
+
+@mixin vp-700 {
+    @media (width <=700px) {
+        @content;
+    }
+}
+
+@mixin vp-850 {
+    @media (width <=850px) {
+        @content;
+    }
+}
+
+@mixin vp-1050 {
+    @media (width <= 1050px) {
+        @content;
+    }
+}
+
+@mixin vp-1200 {
+    @media (width <= 1200px) {
+        @content;
+    }
+}
+
+@mixin vp-1520 {
+    @media (width <=1520px) {
+        @content;
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "skills": [
+    {
+      "title": "UX/UI",
+      "percent": 60
+    },
+    {
+      "title": "Адаптивная/Резиновая верстка",
+      "percent": 80
+    },
+    {
+      "title": "Soft Skills",
+      "percent": 65
+    },
+    {
+      "title": "Hard Skills",
+      "percent": 70
+    },
+    {
+      "title": "Коммуникабельность",
+      "percent": 95
+    },
+    {
+      "title": "Отвественность",
+      "percent": 95
+    },
+    {
+      "title": "Обучаемость",
+      "percent": 90
+    },
+    {
+      "title": "Оптимизация производительности",
+      "percent": 70
+    }
+  ]
+}

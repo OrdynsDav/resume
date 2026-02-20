@@ -1,0 +1,40 @@
+{
+  "reviews": {
+    "videos": [
+      {
+        "url": "https://videocdn.cdnpk.net/videos/0f728ef4-9c86-533e-b33e-1fe4c3f93592/horizontal/previews/clear/large.mp4?token=exp=1770296638~hmac=7013de6e963e5bb031d3738b285cf6d5409c8dd83372035f58061f43bcf68294",
+        "poster": "https://avatars.mds.yandex.net/i?id=bef3d7fd13c67d7ce5e2b6a26ac6dd1571e92067-11490366-images-thumbs&n=13"
+      },
+      {
+        "url": "https://videocdn.cdnpk.net/videos/7f377d5d-d2f4-4b4f-9b1c-6a53b3dc5556/horizontal/previews/clear/large.mp4?token=exp=1770297129~hmac=585d93b66fac44a5121056e3b1496d58fd5da4909a804a0f9db996aa6e548844",
+        "poster": "https://videocdn.cdnpk.net/videos/7f377d5d-d2f4-4b4f-9b1c-6a53b3dc5556/horizontal/thumbnails/large.jpg?ga=GA1.1.104934702.1767949113&item_id=46824&w=740&q=80"
+      },
+      {
+        "url": "https://videocdn.cdnpk.net/videos/181da393-ce8d-5f8d-897c-1cd6497735be/horizontal/previews/clear/large.mp4?token=exp=1770297291~hmac=472a80a49f4f70a71fa71e561712b5bb034e3bdfb3990c013adad55d8dfb1558",
+        "poster": "https://videocdn.cdnpk.net/videos/181da393-ce8d-5f8d-897c-1cd6497735be/horizontal/thumbnails/large.jpg?ga=GA1.1.104934702.1767949113&item_id=3907846&w=740&q=80"
+      }
+    ],
+    "comments": [
+      {
+        "title": "Очень компетентный и внимательный к деталям",
+        "agree": 10
+      },
+      {
+        "title": "Отличный специалист, всегда на связи",
+        "agree": 8
+      },
+      {
+        "title": "Профессионал своего дела, рекомендую!",
+        "agree": 12
+      },
+      {
+        "title": "Быстро и качественно выполнил задачу",
+        "agree": 15
+      },
+      {
+        "title": "Надежный и ответственный сотрудник",
+        "agree": 11
+      }
+    ]
+  }
+}

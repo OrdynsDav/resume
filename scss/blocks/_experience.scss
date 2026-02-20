@@ -1,0 +1,224 @@
+.experience {
+    margin-top: 170px;
+    padding: 54px 0 60px;
+    background-color: var(--secondary-bc);
+
+    @include vp-850 {
+        margin-top: 130px;
+        padding: 44px 0 50px;
+    }
+
+    &__title {
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 500;
+        margin: 0 0 75px;
+        color: var(--secondary-color);
+
+        @include vp-850 {
+            font-size: 28px;
+            line-height: 32px;
+            margin: 0 0 55px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+    }
+
+    &__item {
+        display: flex;
+        gap: 20px;
+
+        @include vp-1050 {
+            flex-direction: column;
+        }
+    }
+
+    &-info {
+        background-color: var(--main-bc);
+        color: var(--color-black-2);
+        border-radius: 16px;
+        padding: 50px 44px 45px;
+        max-width: 960px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        @include vp-850 {
+            padding: 40px;
+        }
+
+        @include vp-550 {
+            padding: 30px;
+        }
+
+        &__duration {
+            font-size: 20px;
+            line-height: 24px;
+            margin: 0 0 45px;
+
+            @include vp-850 {
+                font-size: 18px;
+                line-height: 22px;
+                margin: 0 0 35px;
+            }
+
+            @include vp-550 {
+                font-size: 16px;
+                line-height: 20px;
+                margin: 0 0 25px;
+            }
+        }
+
+        &__logo {
+            margin: 0 0 40px;
+            min-height: 60px;
+            max-width: 400px;
+
+            @include vp-850 {
+                margin-bottom: 30px;
+            }
+
+            @include vp-550 {
+                margin-bottom: 20px;
+            }
+        }
+
+        &__company {
+            margin: 0 0 45px;
+
+            @include vp-850 {
+                margin-bottom: 35px;
+            }
+
+            @include vp-550 {
+                margin-bottom: 20px;
+            }
+
+            &-about {
+                color: var(--color-gray-2);
+                font-size: 20px;
+                line-height: 24px;
+
+                @include vp-850 {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                @include vp-850 {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        &__heading {
+            font-size: 32px;
+            line-height: 36px;
+            font-weight: 600;
+            margin: 0 0 20px;
+            color: var(--accent-color);
+            display: flex;
+            gap: 18px;
+
+            @include vp-850 {
+                margin-bottom: 16px;
+            }
+
+            @include vp-550 {
+                margin-bottom: 12px;
+                font-size: 28px;
+                line-height: 32px;
+            }
+
+            svg {
+                min-width: 12px;
+                min-height: 12px;
+            }
+        }
+
+        &__description {
+            white-space: pre-line;
+
+            @include vp-550 {
+                font-size: 14px;
+                line-height: 18px;
+            }
+        }
+    }
+
+    &-tasks {
+        background-color: var(--main-bc);
+        color: var(--color-black-2);
+        border-radius: 16px;
+        max-width: 680px;
+        width: 100%;
+        padding: 50px 44px 45px;
+
+        @include vp-1050 {
+            max-width: unset;
+        }
+
+        @include vp-850 {
+            padding: 40px;
+        }
+
+        @include vp-550 {
+            padding: 30px;
+        }
+
+        &__role {
+            color: var(--color-gray-2);
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 34px;
+            margin: 0 0 52px;
+
+            @include vp-850 {
+                font-size: 26px;
+                line-height: 30px;
+                margin: 0 0 40px;
+            }
+
+            @include vp-550 {
+                font-size: 22px;
+                line-height: 26px;
+                margin: 0 0 20px;
+            }
+        }
+
+        &__text {
+            color: var(--color-gray-2);
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0 0 12px;
+
+            @include vp-550 {
+                font-size: 14px;
+                line-height: 18px;
+                margin: 0 0 12px;
+            }
+        }
+
+        &__list {
+            display: grid;
+            gap: 10px;
+            list-style-type: disc;
+            padding-left: 30px;
+        }
+
+        &__item {
+            color: var(--accent-color);
+            font-weight: 400;
+            font-family: var(--secondary-font);
+            font-size: 16px;
+
+            @include vp-850 {
+                font-size: 14px;
+            }
+        }
+    }
+}

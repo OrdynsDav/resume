@@ -1,0 +1,20 @@
+/* Global Styles */
+@import "./global/_visually-hidden.scss";
+@import "./global/_mixins.scss";
+@import "./global/_fonts.scss";
+@import "./global/_root.scss";
+@import "./global/_container.scss";
+
+/* Common Styles */
+@import "./common/_title.scss";
+
+/* Block Styles */
+@import "./blocks/_user.scss";
+@import "./blocks/social.scss";
+@import "./blocks/_person-info.scss";
+@import "./blocks/_experience.scss";
+@import "./blocks/_records.scss";
+@import "./blocks/_skills.scss";
+@import "./blocks/_education.scss";
+@import "./blocks/_reviews.scss";
+@import "./blocks/contact.scss"

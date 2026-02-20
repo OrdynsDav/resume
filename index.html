@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clovery Test</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <main>
+    <!-- User -->
+    <!-- <section class="user">
+      <div class="container">
+        <article class="user-inner">
+          <div class="user-inner__description">
+            <h1 class="user-inner__fullname">Петров Василий</h1>
+            <p class="user-inner__profession">DevOps-инженер</p>
+            <p class="user-inner__text">
+              Здесь информация о себе, который специалист напишет сам.
+              Например: хочу работать в новом продукте, искать лучшие решения
+              в классной команде. На связи с 8:00 по 21:00 по МСК.
+            </p>
+            <div class="user-inner__actions">
+              <a class="user-inner__link" href="#" target="_blank" rel="noopener noreferrer">
+                Связаться
+              </a>
+              <a class="user-inner__link user-inner__link--transparent" href="#" target="_blank"
+                rel="noopener noreferrer">
+                Портфолио
+              </a>
+            </div>
+          </div>
+          <div class="user-inner__photo">
+            <svg width="420" height="400" version="1.0" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1500.000000 1060.000000" preserveAspectRatio="xMidYMid meet">
+              <g transform="translate(0.000000,1060.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none">
+                <path
+                  d="M7190 10309 c-284 -30 -589 -117 -790 -226 -573 -312 -892 -903 -969 -1798 -14 -157 -14 -560 0 -683 63 -570 273 -1063 627 -1466 259 -295 644 -535 992 -617 296 -71 545 -75 825 -14 586 127 1108 556 1406 1154 184 372 274 738 286 1176 11 393 -44 836 -144 1165 -57 187 -153 399 -244 535 -304 459 -760 710 -1408 775 -121 12 -459 11 -581 -1z" />
+                <path
+                  d="M5430 5139 c-223 -116 -475 -247 -560 -291 -779 -404 -794 -413 -869 -522 -16 -23 -234 -504 -486 -1071 -251 -566 -483 -1088 -515 -1160 -109 -244 -120 -273 -131 -349 -40 -268 139 -530 399 -585 70 -15 8363 -16 8443 -1 177 33 347 193 395 374 20 75 18 212 -5 283 -15 48 -237 555 -512 1171 -32 72 -85 192 -118 265 -81 183 -170 383 -240 540 -32 72 -87 195 -121 272 -112 254 -149 313 -239 379 -39 29 -377 208 -1091 578 -85 45 -262 136 -392 204 -166 87 -247 124 -270 124 -24 0 -52 -13 -97 -46 -344 -250 -719 -407 -1141 -476 -113 -18 -176 -22 -385 -22 -217 -1 -268 2 -390 23 -391 65 -732 200 -1061 420 -105 70 -160 101 -180 101 -18 0 -181 -79 -434 -211z" />
+              </g>
+            </svg>
+          </div>
+        </article>
+      </div>
+    </section> -->
+    <!-- PersonInfo -->
+    <!-- <section class="person-info">
+      <div class="container">
+        <h2 class="person-info__title title">Основная информация</h2>
+        <div class="person-info__wrapper">
+          <ul class="person-info__list">
+            <li class="person-info__item">
+              <span class="person-info__head">ФИО</span>
+              <span class="person-info__text">Петров Василий Иванович</span>
+            </li>
+            <li class="person-info__item">
+              <span class="person-info__head">Гражданство</span>
+              <span class="person-info__text">Россия</span>
+            </li>
+            <li class="person-info__item">
+              <span class="person-info__head">Город проживания</span>
+              <div class="person-info__description">
+                <span class="person-info__text">Москва</span>
+                <span class="person-info__status">готов к переезду</span>
+              </div>
+            </li>
+          </ul>
+          <ul class="social social__list">
+            <li class="social__item">
+              <span class="social__head">Telegram</span>
+              <a class="social__text" href="https://web.telegram.org/a/">@ivanovich</a>
+            </li>
+            <li class="social__item">
+              <span class="social__head">Почта</span>
+              <a class="social__text" href="mailto:ivanovich@mail.ru">ivanovich@mail.ru</a>
+            </li>
+            <li class="social__item">
+              <span class="social__head">Телефон</span>
+              <a class="social__text" href="tel:+79999999999">+7 (999) 999-99-99</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> -->
+    <!-- Experience -->
+    <!-- <section class="experience">
+      <div class="container">
+        <h2 class="experience__title title">Работа в проектах</h2>
+        <ul class="experience__list">
+          <li class="experience__item">
+            <div class="experience-info">
+              <div class="experience-info__duration">
+                <span class="experience-info__start">март 2024</span>
+                &#8211;
+                <span class="experience-info__end">июнь 2024</span>
+              </div>
+              <svg class="experience-info__logo" width="160" height="46" viewBox="0 0 160 46" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g clip-path="url(#clip0_17_601)">
+                  <rect y="0.0112305" width="160" height="46" fill="url(#pattern0_17_601)" />
+                </g>
+                <defs>
+                  <pattern id="pattern0_17_601" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_17_601" transform="scale(0.00625 0.0217391)" />
+                  </pattern>
+                  <clip-path id="clip0_17_601">
+                    <rect width="160" height="46" fill="white" transform="matrix(1 0 0 -1 0 46)" />
+                  </clip-path>
+                  <image id="image0_17_601" width="160" height="46" preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,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" />
+                </defs>
+              </svg>
+              <div class="experience-info__company">
+                <a class="experience-info__heading" href="#">
+                  <span class="experience-info__heading-text">Проект ProfPlay</span>
+                  <svg class="experience-info__heading-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.292893 10.2929C-0.097631 10.6834 -0.097631 11.3166 0.292893 11.7071C0.683417 12.0976 1.31658 12.0976 1.70711 11.7071L1 11L0.292893 10.2929ZM11.7071 1.70711C12.0976 1.31658 12.0976 0.683417 11.7071 0.292893C11.3166 -0.0976315 10.6834 -0.0976315 10.2929 0.292893L11 1L11.7071 1.70711ZM1 11L1.70711 11.7071L11.7071 1.70711L11 1L10.2929 0.292893L0.292893 10.2929L1 11Z"
+                      fill="black" />
+                    <path
+                      d="M1 0C0.447715 0 0 0.447715 0 1C0 1.55229 0.447715 2 1 2V1V0ZM11 1H12C12 0.447715 11.5523 0 11 0V1ZM10 11C10 11.5523 10.4477 12 11 12C11.5523 12 12 11.5523 12 11H11H10ZM1 1V2H11V1V0H1V1ZM11 1H10V11H11H12V1H11Z"
+                      fill="black" />
+                  </svg>
+                </a>
+                <p class="experience-info__company-about">
+                  Онлайн-платформа профориентации на основе игровых практик
+                </p>
+              </div>
+              <p class="experience-info__description">
+                ProfPlay — онлайн-платформа профориентации, специализирующаяся
+                на методах геймификации. Основная цель платформы — сделать
+                процесс выбора будущей профессии для подростков не только
+                продуктивным, но и интересным, опираясь на игровые практики.
+                Что мы хотим сделать: 1. Создать систему тестирования
+                пользователей. 2. Проанализировать и выбрать лучшие методы
+                геймификации профориентации. 3. Разработать концепцию мини-игр
+                по различным профессиям. 4. Внедрить ачивки и балльную систему
+                для участников Инструменты и технологии: Python, React,
+                PostgreSQL
+              </p>
+            </div>
+            <div class="experience-tasks">
+              <p class="experience-tasks__role">DevOps-инженер</p>
+              <p class="experience-tasks__text">Выполнял задачи:</p>
+              <ul class="experience-tasks__list">
+                <li class="experience-tasks__item">
+                  Настройка CI/CD процессов
+                </li>
+                <li class="experience-tasks__item">
+                  Мониторинг и оптимизация серверов
+                </li>
+                <li class="experience-tasks__item">
+                  Автоматизация развертывания приложений
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="experience__item">
+            <div class="experience-info">
+              <div class="experience-info__duration">
+                <span class="experience-info__start">март 2024</span>
+                &#8211;
+                <span class="experience-info__end">июнь 2024</span>
+              </div>
+              <svg class="experience-info__logo" width="160" height="46" viewBox="0 0 160 46" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g clip-path="url(#clip0_17_601)">
+                  <rect y="0.0112305" width="160" height="46" fill="url(#pattern0_17_601)" />
+                </g>
+                <defs>
+                  <pattern id="pattern0_17_601" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_17_601" transform="scale(0.00625 0.0217391)" />
+                  </pattern>
+                  <clipPath id="clip0_17_601">
+                    <rect width="160" height="46" fill="white" transform="matrix(1 0 0 -1 0 46)" />
+                  </clipPath>
+                  <image id="image0_17_601" width="160" height="46" preserveAspectRatio="none"
+                    xlink:href="data:image/png;base64,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" />
+                </defs>
+              </svg>
+              <div class="experience-info__company">
+                <a class="experience-info__heading" href="#">
+                  <span class="experience-info__heading-text">Проект ProfPlay</span>
+                  <svg class="experience-info__heading-icon" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M0.292893 10.2929C-0.097631 10.6834 -0.097631 11.3166 0.292893 11.7071C0.683417 12.0976 1.31658 12.0976 1.70711 11.7071L1 11L0.292893 10.2929ZM11.7071 1.70711C12.0976 1.31658 12.0976 0.683417 11.7071 0.292893C11.3166 -0.0976315 10.6834 -0.0976315 10.2929 0.292893L11 1L11.7071 1.70711ZM1 11L1.70711 11.7071L11.7071 1.70711L11 1L10.2929 0.292893L0.292893 10.2929L1 11Z"
+                      fill="black" />
+                    <path
+                      d="M1 0C0.447715 0 0 0.447715 0 1C0 1.55229 0.447715 2 1 2V1V0ZM11 1H12C12 0.447715 11.5523 0 11 0V1ZM10 11C10 11.5523 10.4477 12 11 12C11.5523 12 12 11.5523 12 11H11H10ZM1 1V2H11V1V0H1V1ZM11 1H10V11H11H12V1H11Z"
+                      fill="black" />
+                  </svg>
+                </a>
+                <p class="experience-info__company-about">
+                  Онлайн-платформа профориентации на основе игровых практик
+                </p>
+              </div>
+              <p class="experience-info__description">
+                ProfPlay — онлайн-платформа профориентации, специализирующаяся
+                на методах геймификации. Основная цель платформы — сделать
+                процесс выбора будущей профессии для подростков не только
+                продуктивным, но и интересным, опираясь на игровые практики.
+                Что мы хотим сделать: 1. Создать систему тестирования
+                пользователей. 2. Проанализировать и выбрать лучшие методы
+                геймификации профориентации. 3. Разработать концепцию мини-игр
+                по различным профессиям. 4. Внедрить ачивки и балльную систему
+                для участников Инструменты и технологии: Python, React,
+                PostgreSQL
+              </p>
+            </div>
+            <div class="experience-tasks">
+              <p class="experience-tasks__role">DevOps-инженер</p>
+              <p class="experience-tasks__text">Выполнял задачи:</p>
+              <ul class="experience-tasks__list">
+                <li class="experience-tasks__item">
+                  Настройка CI/CD процессов
+                </li>
+                <li class="experience-tasks__item">
+                  Мониторинг и оптимизация серверов
+                </li>
+                <li class="experience-tasks__item">
+                  Автоматизация развертывания приложений
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section> -->
+    <!-- Records -->
+    <!-- <section class="records">
+      <div class="container">
+        <div class="records__head">
+          <h2 class="records__title title">Достижения</h2>
+          <div class="records-custom-arrows">
+            <button class="records-custom-arrows__prev" aria-label="Prev">
+              <svg width="62" height="34" viewBox="0 0 62 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M61 17.75C61.5523 17.75 62 17.3023 62 16.75C62 16.1977 61.5523 15.75 61 15.75V16.75V17.75ZM1 15.75C0.447715 15.75 0 16.1977 0 16.75C0 17.3023 0.447715 17.75 1 17.75V16.75V15.75ZM61 16.75V15.75H1V16.75V17.75H61V16.75Z"
+                  fill="#2E3192" />
+                <path
+                  d="M16.7993 33.2136C17.1934 33.6005 17.8266 33.5947 18.2135 33.2006C18.6004 32.8065 18.5946 32.1734 18.2005 31.7864L17.4999 32.5L16.7993 33.2136ZM1.45825 16.75L0.757662 16.0364C0.566143 16.2245 0.458252 16.4816 0.458252 16.75C0.458252 17.0184 0.566143 17.2755 0.757662 17.4636L1.45825 16.75ZM18.2005 1.71356C18.5946 1.32664 18.6004 0.693501 18.2135 0.299412C17.8266 -0.0946808 17.1934 -0.100491 16.7993 0.286434L17.4999 1L18.2005 1.71356ZM17.4999 32.5L18.2005 31.7864L2.15884 16.0364L1.45825 16.75L0.757662 17.4636L16.7993 33.2136L17.4999 32.5ZM1.45825 16.75L2.15884 17.4636L18.2005 1.71356L17.4999 1L16.7993 0.286434L0.757662 16.0364L1.45825 16.75Z"
+                  fill="#2E3192" />
+              </svg>
+            </button>
+            <button class="records-custom-arrows__next" aria-label="Next">
+              <svg width="62" height="34" viewBox="0 0 62 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M61 17.75C61.5523 17.75 62 17.3023 62 16.75C62 16.1977 61.5523 15.75 61 15.75V16.75V17.75ZM1 15.75C0.447715 15.75 0 16.1977 0 16.75C0 17.3023 0.447715 17.75 1 17.75V16.75V15.75ZM61 16.75V15.75H1V16.75V17.75H61V16.75Z"
+                  fill="#2E3192" />
+                <path
+                  d="M16.7993 33.2136C17.1934 33.6005 17.8266 33.5947 18.2135 33.2006C18.6004 32.8065 18.5946 32.1734 18.2005 31.7864L17.4999 32.5L16.7993 33.2136ZM1.45825 16.75L0.757662 16.0364C0.566143 16.2245 0.458252 16.4816 0.458252 16.75C0.458252 17.0184 0.566143 17.2755 0.757662 17.4636L1.45825 16.75ZM18.2005 1.71356C18.5946 1.32664 18.6004 0.693501 18.2135 0.299412C17.8266 -0.0946808 17.1934 -0.100491 16.7993 0.286434L17.4999 1L18.2005 1.71356ZM17.4999 32.5L18.2005 31.7864L2.15884 16.0364L1.45825 16.75L0.757662 17.4636L16.7993 33.2136L17.4999 32.5ZM1.45825 16.75L2.15884 17.4636L18.2005 1.71356L17.4999 1L16.7993 0.286434L0.757662 16.0364L1.45825 16.75Z"
+                  fill="#2E3192" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide records__item">
+                <strong class="records__strong">164</strong>
+                <span class="records__text">балла</span>
+              </li>
+              <li class="splide__slide records__item">Слайд 2</li>
+              <li class="splide__slide records__item">Слайд 3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Skills -->
+    <!-- <section class="skills">
+      <div class="container">
+        <h2 class="skills__title title">Паспорт навыков</h2>
+        <div class="skills-radar">
+          <canvas class="skills-radar__canvas"></canvas>
+        </div>
+      </div>
+    </section> -->
+    <!-- Education -->
+    <!-- <section class="education">
+      <div class="container">
+        <div class="education__wrapper">
+          <h2 class="education__title title">Образование</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              <div class="education__duration">
+                <span class="education__start">2007</span>
+                &#8211;
+                <span class="education__end">2011</span>
+              </div>
+              <h3 class="education__subtitle">
+                Тракторный факультет, Тракторист
+              </h3>
+              <p class="education__place">
+                Московский государственный университет, Москва
+              </p>
+            </li>
+            <li class="education__item">
+              <div class="education__duration">
+                <span class="education__time">2011</span>
+              </div>
+              <h3 class="education__subtitle">Повышение квалификации</h3>
+              <p class="education__place">
+                Московский государственный университет, Москва
+              </p>
+            </li>
+            <li class="education__item">
+              <div class="education__duration">
+                <span class="education__time">2023</span>
+              </div>
+              <h3 class="education__subtitle">DevOps-инженер</h3>
+              <p class="education__place">Скиллфактори</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> -->
+    <!-- Reviews -->
+    <!-- <section class="reviews">
+      <div class="container">
+        <h2 class="reviews__title title">Отзывы коллег</h2>
+        <ul class="reviews__video-list">
+          <li class="reviews__video-item">
+            <video
+              poster="https://avatars.mds.yandex.net/i?id=bef3d7fd13c67d7ce5e2b6a26ac6dd1571e92067-11490366-images-thumbs&n=13"
+              src="https://videocdn.cdnpk.net/videos/0f728ef4-9c86-533e-b33e-1fe4c3f93592/horizontal/previews/clear/large.mp4?token=exp=1770296638~hmac=7013de6e963e5bb031d3738b285cf6d5409c8dd83372035f58061f43bcf68294"
+              controls muted width="320" height="496"></video>
+          </li>
+        </ul>
+        <ul class="reviews-comments__list">
+          <li class="reviews-comments__item">
+            <h3 class="reviews-comments__title">
+              Всегда помогает в трудных ситуациях
+            </h3>
+            <span class="reviews-comments__agreed">+ 5 человек</span>
+          </li>
+        </ul>
+      </div>
+    </section> -->
+    <!-- Contact -->
+    <!-- <section class="contact">
+      <div class="container">
+        <div class="contact__wrapper">
+          <div class="contact__info">
+            <h2 class="contact__title title">Давайте работать вместе!</h2>
+            <p class="contact__text">Напишите или позвоните мне:</p>
+            <div class="social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <span class="social__head">Telegram</span>
+                  <a class="social__text" href="https://web.telegram.org/a/">@ivanovich</a>
+                </li>
+                <li class="social__item">
+                  <span class="social__head">Почта</span>
+                  <a class="social__text" href="mailto:ivanovich@mail.ru">ivanovich@mail.ru</a>
+                </li>
+                <li class="social__item">
+                  <span class="social__head">Телефон</span>
+                  <a class="social__text" href="tel:+79999999999">+7 (999) 999-99-99</a>
+                </li>
+              </ul>
+            </div>
+            <div class="contact__network">
+              <ul class="contact__list">
+                <li class="contact__item">
+                  <a href="https://web.telegram.org" class="contact__link">
+                    <svg width="38" height="32" viewBox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.248522 6.33899C1.93187 5.41175 3.81095 4.63787 5.56667 3.86003C8.58719 2.58599 11.6197 1.33403 14.6828 0.168471C15.2788 -0.0301292 16.3496 -0.224349 16.4546 0.658851C16.3972 1.90901 16.1606 3.15185 15.9984 4.39469C15.5866 7.12781 15.1107 9.85157 14.6466 12.5757C14.4867 13.4831 13.35 13.9528 12.6227 13.3721C10.8748 12.1915 9.11339 11.0223 7.38779 9.81425C6.82253 9.23987 7.34669 8.41505 7.85153 8.00489C9.29117 6.58613 10.8179 5.38073 12.1823 3.88865C12.5504 2.99987 11.4629 3.74891 11.1043 3.97841C9.13337 5.33657 7.21073 6.77765 5.13281 7.97129C4.07141 8.55557 2.83433 8.05625 1.77341 7.73021C0.822158 7.33637 -0.571774 6.93959 0.248426 6.33905L0.248522 6.33899Z"
+                        fill="#2E3192"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li class="contact__item">
+                  <a href="https://vk.com/feed" class="contact__link">
+                    <svg width="34.54545454545455" height="20" viewBox="0 0 19 11" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M18.2795 0.699502C18.4182 0.30493 18.2795 0.0179495 17.6649 0.0179495H15.6228C15.1073 0.0179495 14.8694 0.269031 14.7306 0.538115C14.7306 0.538115 13.6798 2.8339 12.2127 4.32255C11.7369 4.75302 11.5188 4.89651 11.2611 4.89651C11.1223 4.89651 10.9439 4.75302 10.9439 4.35845V0.681552C10.9439 0.215235 10.7853 0 10.3491 0H7.13733C6.82011 0 6.62187 0.215235 6.62187 0.430471C6.62187 0.878891 7.3554 0.986482 7.43471 2.24199V4.96826C7.43471 5.56017 7.31578 5.66776 7.05802 5.66776C6.36412 5.66776 4.67893 3.35402 3.66781 0.717451C3.46951 0.197286 3.27128 0 2.75583 0H0.693898C0.0991342 0 0 0.251134 0 0.520165C0 1.00443 0.693898 3.44371 3.2316 6.67219C4.91685 8.87828 7.31578 10.0621 9.4768 10.0621C10.7853 10.0621 10.9439 9.79302 10.9439 9.34465V7.67662C10.9439 7.1385 11.0628 7.04886 11.4792 7.04886C11.7766 7.04886 12.3119 7.1923 13.5212 8.25053C14.909 9.50604 15.147 10.08 15.9202 10.08H17.9623C18.557 10.08 18.8346 9.81097 18.676 9.29081C18.4975 8.77069 17.8235 8.0174 16.9511 7.12056C16.4753 6.61839 15.7616 6.06238 15.5435 5.7933C15.2461 5.43463 15.3254 5.29113 15.5435 4.96826C15.5237 4.96826 18.0217 1.77568 18.2795 0.699502Z"
+                        fill="#2E3192"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li class="contact__item">
+                  <a href="https://web.telegram.org" class="contact__link">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"
+                        fill="#2E3192"></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact__photo">
+            <svg width="420" height="400" version="1.0" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1500.000000 1060.000000" preserveAspectRatio="xMidYMid meet">
+              <g transform="translate(0.000000,1060.000000) scale(0.100000,-0.100000)" fill="#ffffff" stroke="none">
+                <path
+                  d="M7190 10309 c-284 -30 -589 -117 -790 -226 -573 -312 -892 -903 -969 -1798 -14 -157 -14 -560 0 -683 63 -570 273 -1063 627 -1466 259 -295 644 -535 992 -617 296 -71 545 -75 825 -14 586 127 1108 556 1406 1154 184 372 274 738 286 1176 11 393 -44 836 -144 1165 -57 187 -153 399 -244 535 -304 459 -760 710 -1408 775 -121 12 -459 11 -581 -1z" />
+                <path
+                  d="M5430 5139 c-223 -116 -475 -247 -560 -291 -779 -404 -794 -413 -869 -522 -16 -23 -234 -504 -486 -1071 -251 -566 -483 -1088 -515 -1160 -109 -244 -120 -273 -131 -349 -40 -268 139 -530 399 -585 70 -15 8363 -16 8443 -1 177 33 347 193 395 374 20 75 18 212 -5 283 -15 48 -237 555 -512 1171 -32 72 -85 192 -118 265 -81 183 -170 383 -240 540 -32 72 -87 195 -121 272 -112 254 -149 313 -239 379 -39 29 -377 208 -1091 578 -85 45 -262 136 -392 204 -166 87 -247 124 -270 124 -24 0 -52 -13 -97 -46 -344 -250 -719 -407 -1141 -476 -113 -18 -176 -22 -385 -22 -217 -1 -268 2 -390 23 -391 65 -732 200 -1061 420 -105 70 -160 101 -180 101 -18 0 -181 -79 -434 -211z" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  </main>
+  <script type="module" src="./js/app.js"></script>
+</body>
+
+</html>
