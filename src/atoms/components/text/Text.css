@@ -1,0 +1,14 @@
+.text {
+    --text-font-size: clamp(0.5rem, 2vw, 1.5rem);
+    font-size: var(--text-font-size);
+    margin: 0;
+    transition: var(--transition-color);
+}
+
+.text--heading {
+    color: var(--text-secondary);
+}
+
+.text--secondary {
+    color: var(--color-accent);
+}

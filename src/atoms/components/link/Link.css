@@ -1,0 +1,50 @@
+.link:not(.link--casual, .link:not(:has(.text))) {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 24px;
+    border-radius: 8px;
+    font-size: 14.5px;
+    font-weight: 500;
+}
+
+.link--primary {
+    background-color: var(--color-accent);
+
+    .text {
+        color: var(--text-black);
+    }
+}
+
+.link:hover .text {
+    color: var(--text-hover);
+}
+
+.link--primary:hover .text {
+    color: var(--text-black);
+}
+
+.link:not(:has(.text)) {
+    position: relative;
+    padding: 0;
+}
+
+.link:not(:has(.text))::before {
+    content: "";
+    display: block;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    position: absolute;
+    top: 0;
+    left: -25%;
+    transform: translateX(13%);
+
+}
+
+.link__icon {
+    display: flex;
+}
+
+.link:hover svg {
+    color: var(--text-hover);
+}

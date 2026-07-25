@@ -1,0 +1,6 @@
+.container {
+    padding-inline: clamp(1.5rem, 2rem + 1vw, 5vw);
+    margin: 0 auto;
+    max-width: clamp(1100px, 75vw, 90vw);
+    width: 100%;
+}
