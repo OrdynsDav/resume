@@ -3,7 +3,7 @@ import { Contacts } from "../../molecules/Contacts/Contacts";
 import { Navigation } from "../../molecules/Navigation/Navigation";
 import "./Header.css";
 
-export function Header() {
+export default function Header() {
   return (
     <header className="header">
       <Container>

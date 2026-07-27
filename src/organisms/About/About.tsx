@@ -1,4 +1,4 @@
-import Stat from "../../atoms/components/stat/Stat";
+import { Stat } from "../../atoms/components/stat/Stat";
 import { Text } from "../../atoms/components/text/Text";
 import type { StatProps } from "../../atoms/types/inertfaces";
 import { Section } from "../../molecules/Section/Section";
@@ -19,8 +19,8 @@ export default function About() {
           <Text text="Мне интересно не просто закрывать тикеты, а понимать, зачем нужна фича и как сделать её проще для пользователя. Учусь быстро, задаю вопросы, когда не знаю — и довожу задачи до конца." />
         </div>
         <div className="about__stats">
-          {stats.map(({ label, value }) => {
-            return <Stat label={label} value={value} />;
+          {stats.map(({ label, value }, index) => {
+            return <Stat key={index} label={label} value={value} />;
           })}
         </div>
       </div>

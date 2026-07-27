@@ -1,5 +1,4 @@
-import type { ReactNode } from "react";
-import type { HeadingLevel, LinkVariants, TextTag, TextVariants } from "./types";
+import type { LinkVariants, TextTag, TextVariants } from "./types";
 
 export interface IconProps {
   width?: number;
@@ -22,20 +21,6 @@ export interface TextProps {
   tag?: TextTag;
 }
 
-export interface SectionProps {
-  /** Видимый заголовок секции (опционально, но крайне желателен) */
-  title?: string;
-  /** Уровень заголовка — учитывай иерархию h1 → h6 на всей странице */
-  headingLevel?: HeadingLevel;
-  /** Если заголовка нет визуально, обязательно укажи aria-label */
-  ariaLabel?: string;
-  /** id для якорной навигации, генерируется из title, если не передан */
-  id?: string;
-  className?: string;
-  orderNum?: string;
-  children: ReactNode;
-}
-
 export interface ContainerProps {
   children: React.ReactNode;
   className?: string;
@@ -44,4 +29,8 @@ export interface ContainerProps {
 export interface StatProps {
   label: string;
   value: string;
+}
+
+export interface TagProps {
+  text: string;
 }

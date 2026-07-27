@@ -1,5 +1,4 @@
 import { Link } from "../../atoms/components/link/Link";
-
 import { contactsList } from "../../config/contacts.config.tsx";
 import "./Contacts.css";
 

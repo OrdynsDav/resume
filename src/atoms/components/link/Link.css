@@ -49,7 +49,6 @@
 /* light — облегчённый вариант без фона/рамки (в источнике аналога нет, предположение) */
 .link--light {
   padding: 0;
-  color: var(--text-dim);
   background: none;
   border: none;
 }

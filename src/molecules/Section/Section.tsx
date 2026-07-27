@@ -1,6 +1,6 @@
 import { clsx } from "../../atoms/helpers/clsx";
 import { slugify } from "../../atoms/helpers/slugify";
-import type { SectionProps } from "../../atoms/types/inertfaces";
+import type { SectionProps } from "../types/inertfaces";
 import { Container } from "../../atoms/components/container/Container";
 import { Text } from "../../atoms/components/text/Text";
 import "./Section.css";

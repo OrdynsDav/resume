@@ -1,0 +1,13 @@
+.tag {
+  font-size: 13.5px;
+  padding: 7px 13px;
+  border: 1px solid var(--panel-border);
+  border-radius: 7px;
+  background: var(--panel);
+  transition: all 0.2s ease;
+}
+
+.tag:hover {
+  border-color: var(--color-accent);
+  color: var(--text-secondary);
+}

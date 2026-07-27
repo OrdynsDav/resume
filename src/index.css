@@ -10,12 +10,16 @@
   --text-hover: var(--text-secondary);
   --text-black: #07130d;
 
+  --panel: #ffffff0d;
+  --panel-border: #ffffff1a;
+
   --color-accent: #2fe88a;
 
   --transition-duration: 0.2s;
   --transition-color: color var(--transition-duration);
   --transition-border-color: border-color var(--transition-duration);
   --transition-background-color: background-color var(--transition-duration);
+  --transition-transform: transform var(--transition-duration);
 }
 
 html {
@@ -56,4 +60,11 @@ img {
 svg {
   color: var(--text-primary);
   transition: var(--transition-color);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }

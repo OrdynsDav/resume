@@ -1,0 +1,9 @@
+.splide__slide.is-active .project {
+  transform: translateY(-10px);
+  border-color: var(--color-accent);
+}
+
+.splide__track {
+  padding: 24px 0; /* запас для подъёма карточки */
+  margin: -24px 0;
+}
