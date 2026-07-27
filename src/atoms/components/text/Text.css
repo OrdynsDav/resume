@@ -1,14 +1,30 @@
 .text {
-    --text-font-size: clamp(0.5rem, 2vw, 1.5rem);
-    font-size: var(--text-font-size);
-    margin: 0;
-    transition: var(--transition-color);
+  --text-font-size: clamp(0.875rem, 0.223vw + 0.83rem, 1rem);
+  font-size: var(--text-font-size);
+  margin: 0;
+  transition: var(--transition-color);
+  line-height: 1.6;
 }
 
 .text--heading {
-    color: var(--text-secondary);
+  color: var(--text-secondary);
 }
 
 .text--secondary {
-    color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+h1.text {
+  --text-font-size: clamp(2.5rem, 5.4vw, 4rem);
+}
+
+h2.text {
+  --text-font-size: clamp(1.625rem, 3vw, 2.125rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+h3.text {
+  --text-font-size: clamp(1.0625rem, 1.2vw, 1.1875rem);
 }

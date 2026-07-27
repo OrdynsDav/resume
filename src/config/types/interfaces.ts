@@ -6,3 +6,9 @@ export interface Contact {
   icon: ReactElement;
   ariaLabel: string;
 }
+
+export interface Navigation {
+  id: number;
+  text: string;
+  href: string;
+}

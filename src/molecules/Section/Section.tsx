@@ -1,14 +1,9 @@
-import type { SectionProps } from "../../types/inertfaces";
-import { Container } from "../container/Container";
-import { Text } from "../text/Text";
-
-function slugify(text: string): string {
-  return text
-    .toLowerCase()
-    .trim()
-    .replace(/[^\wа-яё\s-]/g, "")
-    .replace(/\s+/g, "-");
-}
+import { clsx } from "../../atoms/helpers/clsx";
+import { slugify } from "../../atoms/helpers/slugify";
+import type { SectionProps } from "../../atoms/types/inertfaces";
+import { Container } from "../../atoms/components/container/Container";
+import { Text } from "../../atoms/components/text/Text";
+import "./Section.css";
 
 export function Section({
   title,
@@ -17,6 +12,7 @@ export function Section({
   id,
   className,
   children,
+  orderNum,
 }: SectionProps) {
   if (!title && !ariaLabel) {
     console.warn(
@@ -31,12 +27,15 @@ export function Section({
   return (
     <section
       id={sectionId}
-      className={className}
+      className={clsx("section", className)}
       aria-label={!title ? ariaLabel : undefined}
       aria-labelledby={title ? headingId : undefined}
     >
       <Container>
-        {title && <Text tag={HeadingTag} id={headingId} text={title} />}
+        <div className="section-title-wrap">
+          {orderNum && <Text className="section-title-wrap__num" tag={"span"} text={orderNum} />}
+          {title && <Text tag={HeadingTag} id={headingId} text={title} />}
+        </div>
         {children}
       </Container>
     </section>

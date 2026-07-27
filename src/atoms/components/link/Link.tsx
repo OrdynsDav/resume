@@ -14,15 +14,7 @@ export function Link({
   ...props
 }: LinkProps & AnchorHTMLAttributes<HTMLAnchorElement>) {
   return (
-    <a
-      className={clsx(
-        "link",
-        `link--${variant}`,
-        className ?? ""
-      )}
-      href={href}
-      {...[props]}
-    >
+    <a className={clsx("link", `link--${variant}`, className ?? "")} href={href} {...[props]}>
       {iconLeft && <span className="link__icon">{iconLeft}</span>}
       {text && <Text text={text} />}
       {iconRight && <span className="link__icon">{iconRight}</span>}

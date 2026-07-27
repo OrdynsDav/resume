@@ -1,6 +1,6 @@
 import type { IconProps } from "../types/inertfaces";
 
-export default function LinkedInIcon({width = 20, height = 20}: IconProps) {
+export default function LinkedInIcon({ width = 20, height = 20 }: IconProps) {
   return (
     <svg
       width={width}

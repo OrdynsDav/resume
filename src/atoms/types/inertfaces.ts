@@ -2,24 +2,24 @@ import type { ReactNode } from "react";
 import type { HeadingLevel, LinkVariants, TextTag, TextVariants } from "./types";
 
 export interface IconProps {
-    width?: number;
-    height?: number;
+  width?: number;
+  height?: number;
 }
 
 export interface LinkProps {
-    href: string;
-    text?: string;
-    variant?: LinkVariants;
-    className?: string;
-    iconLeft?: React.ReactElement;
-    iconRight?: React.ReactElement;
+  href: string;
+  text?: string;
+  variant?: LinkVariants;
+  className?: string;
+  iconLeft?: React.ReactElement;
+  iconRight?: React.ReactElement;
 }
 
 export interface TextProps {
-    text: string;
-    className?: string;
-    variant?: TextVariants;
-    tag?: TextTag
+  text: string;
+  className?: string;
+  variant?: TextVariants;
+  tag?: TextTag;
 }
 
 export interface SectionProps {
@@ -32,10 +32,16 @@ export interface SectionProps {
   /** id для якорной навигации, генерируется из title, если не передан */
   id?: string;
   className?: string;
+  orderNum?: string;
   children: ReactNode;
 }
 
 export interface ContainerProps {
-    children: React.ReactNode
-    className?: string;
+  children: React.ReactNode;
+  className?: string;
+}
+
+export interface StatProps {
+  label: string;
+  value: string;
 }

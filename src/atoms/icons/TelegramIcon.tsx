@@ -1,6 +1,6 @@
 import type { IconProps } from "../types/inertfaces";
 
-export function TelegramIcon({width = 20, height = 20}: IconProps) {
+export function TelegramIcon({ width = 20, height = 20 }: IconProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

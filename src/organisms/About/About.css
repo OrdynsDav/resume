@@ -1,0 +1,15 @@
+.about__wrapper {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 60px;
+}
+
+.about__description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about__stats {
+  width: 100%;
+}

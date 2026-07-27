@@ -1,6 +1,7 @@
 import "./App.css";
-import Hero from "./molecules/Hero/Hero";
+import Hero from "./organisms/Hero/Hero";
 import { Header } from "./organisms/Header/Header";
+import About from "./organisms/About/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <About />
       </main>
     </>
   );
