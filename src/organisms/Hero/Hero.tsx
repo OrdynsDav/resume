@@ -1,6 +1,6 @@
 import { Link } from "../../atoms/components/link/Link";
 import { Text } from "../../atoms/components/text/Text";
-import { contacts } from "../../config/contacts.config";
+import { social } from "../../config/contacts.config";
 import { Section } from "../../molecules/Section/Section";
 import "./Hero.css";
 
@@ -19,7 +19,7 @@ export default function Hero() {
             <Link className="hero__link" href="" text="Смотреть проекты" />
             <Link
               className="hero__link"
-              href={contacts.telegram.href}
+              href={social.telegram.href}
               text="Написать мне"
               variant="secondary"
             />

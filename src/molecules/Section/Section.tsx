@@ -32,10 +32,12 @@ export function Section({
       aria-labelledby={title ? headingId : undefined}
     >
       <Container>
-        <div className="section-title-wrap">
-          {orderNum && <Text className="section-title-wrap__num" tag={"span"} text={orderNum} />}
-          {title && <Text tag={HeadingTag} id={headingId} text={title} />}
-        </div>
+        {title && orderNum ? (
+          <div className="section-title-wrap">
+            <Text className="section-title-wrap__num" tag={"span"} text={orderNum} />
+            <Text tag={HeadingTag} id={headingId} text={title} />
+          </div>
+        ) : null}
         {children}
       </Container>
     </section>

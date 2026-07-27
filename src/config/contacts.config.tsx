@@ -4,7 +4,7 @@ import LinkedInIcon from "../atoms/icons/LinkedInIcon";
 import { GitHubIcon } from "../atoms/icons/GitHubIcon";
 import type { Contact } from "./types/interfaces";
 
-export const contacts = {
+export const social = {
   telegram: {
     id: 1,
     href: "https://t.me/davohakk",
@@ -31,4 +31,4 @@ export const contacts = {
   },
 } as const satisfies Record<string, Contact>;
 
-export const contactsList = Object.values(contacts);
+export const socialList = Object.values(social);

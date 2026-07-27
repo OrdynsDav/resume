@@ -42,7 +42,8 @@
   max-width: 480px;
   aspect-ratio: 1 / 1;
   margin-left: auto;
-  right: -6%;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .hero__picture img {
@@ -57,6 +58,7 @@
     linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000 14%, #000 88%, rgba(0, 0, 0, 0) 100%);
   mask-composite: intersect;
   border-radius: 8px;
+  transform: scale(2) translateX(-18px);
 }
 
 @media (min-width: 1440px) {

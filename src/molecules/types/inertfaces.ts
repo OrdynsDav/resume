@@ -23,3 +23,10 @@ export interface ProjectProps {
   tags: TagProps[];
   reposHref: string;
 }
+
+export interface TimelineExperienceProps {
+  start: number;
+  end: number | "present";
+  title: string;
+  description: string;
+}

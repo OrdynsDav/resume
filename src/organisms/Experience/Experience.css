@@ -1,0 +1,14 @@
+.experience__timeline {
+  position: relative;
+  padding-left: 32px;
+}
+
+.experience__timeline::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  bottom: 6px;
+  width: 1.5px;
+  background: var(--color-accent);
+}

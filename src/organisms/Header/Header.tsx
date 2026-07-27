@@ -1,5 +1,5 @@
 import { Container } from "../../atoms/components/container/Container";
-import { Contacts } from "../../molecules/Contacts/Contacts";
+import { Social } from "../../molecules/Social/Social";
 import { Navigation } from "../../molecules/Navigation/Navigation";
 import "./Header.css";
 
@@ -9,7 +9,7 @@ export default function Header() {
       <Container>
         <div className="header__wrapper">
           <Navigation />
-          <Contacts />
+          <Social />
         </div>
       </Container>
     </header>

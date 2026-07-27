@@ -4,6 +4,8 @@ import Header from "./organisms/Header/Header";
 import About from "./organisms/About/About";
 import Skills from "./organisms/Skills/Skills";
 import Projects from "./organisms/Projects/Projects";
+import Experience from "./organisms/Experience/Experience";
+import Contacts from "./organisms/Contacts/Contacts";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Experience />
+        <Contacts />
       </main>
     </>
   );

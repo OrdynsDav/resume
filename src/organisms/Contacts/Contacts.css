@@ -1,0 +1,27 @@
+.contacts-box {
+  background: var(--panel);
+  border: 1px solid var(--panel-border);
+  border-radius: 16px;
+  padding: 64px 48px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(6px);
+}
+
+.contacts-box__title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(26px, 4vw, 38px);
+  margin-bottom: 16px;
+}
+
+.contacts-box__subtitle {
+  margin-bottom: 32px;
+}
+
+.contacts-box__cta {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
