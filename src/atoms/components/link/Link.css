@@ -79,4 +79,8 @@
   display: inline-flex;
   align-items: center;
   line-height: 0;
+
+  svg {
+    color: inherit;
+  }
 }

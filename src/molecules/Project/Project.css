@@ -47,4 +47,5 @@
 
 .project__link {
   margin-top: auto;
+  color: var(--color-accent);
 }

@@ -1,6 +1,5 @@
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import { Section } from "../../molecules/Section/Section";
-import "./Projects.css";
 import type { ProjectProps } from "../../molecules/types/inertfaces";
 import { Project } from "../../molecules/Project/Project";
 import { splideSLiderOptions } from "../../lib/splidejs/splideSliderOptions";
