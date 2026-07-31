@@ -47,7 +47,7 @@ export default function Projects() {
     },
   ];
   return (
-    <Section className="projects" orderNum="03" title="Проекты" id="projects">
+    <Section className="projects" orderNum="03" title="Проекты">
       <Splide options={splideSLiderOptions.options}>
         {projects.map(({ orderNum, title, description, tags, reposHref }, index) => {
           return (

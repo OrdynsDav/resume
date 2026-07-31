@@ -10,7 +10,7 @@ export default function Skills() {
   ];
 
   return (
-    <Section className="skills" orderNum="02" title="Навыки" id="skills">
+    <Section className="skills" orderNum="02" title="Навыки">
       <div className="skills__groups">
         {groups.map(({ id, title, items }) => (
           <div className="skills__group" key={id}>

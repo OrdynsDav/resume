@@ -58,7 +58,7 @@
     linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000 14%, #000 88%, rgba(0, 0, 0, 0) 100%);
   mask-composite: intersect;
   border-radius: 8px;
-  transform: scale(2) translateX(-18px);
+  transform: scale(1.2) translateX(-16px);
 }
 
 @media (min-width: 1440px) {

@@ -1,0 +1,4 @@
+.lazy-section {
+  min-height: var(--min-h);
+  scroll-margin-top: var(--scroll-offset);
+}

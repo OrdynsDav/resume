@@ -26,7 +26,7 @@ export default function Experience() {
     },
   ];
   return (
-    <Section className="experience" orderNum="04" title="Опыт и образование" id="experience">
+    <Section className="experience" orderNum="04" title="Опыт и образование">
       <div className="experience__timeline">
         {timelineExperience.map((item) => {
           return <TimelineExperience key={item.description} {...item} />;

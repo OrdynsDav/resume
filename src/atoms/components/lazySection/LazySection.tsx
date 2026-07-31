@@ -1,0 +1,57 @@
+import { Suspense, useEffect, useRef, useState } from "react";
+import type { LazySectionProps } from "../../types/inertfaces";
+import { FadeIn } from "../fadeIn/FadeIn";
+import "./LazySection.css";
+
+export function LazySection({
+  children,
+  rootMargin = "100px",
+  minHeight = 300,
+  skeleton,
+  id,
+}: LazySectionProps) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    if (isVisible) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin },
+    );
+
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [isVisible, rootMargin]);
+
+  // LazySection.tsx
+  useEffect(() => {
+    const handler = (e: Event) => {
+      if ((e as CustomEvent).detail === id) setIsVisible(true);
+    };
+    window.addEventListener("force-visible", handler);
+    return () => window.removeEventListener("force-visible", handler);
+  }, [id]);
+
+  return (
+    // LazySection.tsx — убираем ручное управление minHeight
+    <div
+      id={id}
+      ref={ref}
+      className="lazy-section"
+      style={{ "--min-h": `${minHeight}px` } as React.CSSProperties}
+    >
+      {isVisible && (
+        <Suspense fallback={skeleton}>
+          <FadeIn>{children}</FadeIn>
+        </Suspense>
+      )}
+    </div>
+  );
+}

@@ -12,7 +12,7 @@ export default function About() {
     { label: "Коммерческий опыт", value: "1 год" },
   ];
   return (
-    <Section className="about" id="about" orderNum={"01"} title="Обо мне">
+    <Section className="about" orderNum={"01"} title="Обо мне">
       <div className="about__wrapper">
         <div className="about__description">
           <Text text="Мне 22, я заканчиваю обучение по специальности «Программная инженерия» и последний год пишу production-код на стажировке. Начинал с вёрстки — сейчас собираю интерфейсы на React, подключаю их к API и слежу, чтобы всё работало быстро и без сюрпризов." />

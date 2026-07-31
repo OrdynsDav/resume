@@ -1,7 +1,7 @@
 .section {
   padding: 110px 0;
   width: 100%;
-  scroll-margin-top: 61px;
+  scroll-margin-top: var(--scroll-offset);
 }
 
 .section-title-wrap {
@@ -11,6 +11,7 @@
   margin-bottom: 56px;
   flex-wrap: wrap;
   text-transform: uppercase;
+  scroll-margin-top: var(--scroll-offset);
 }
 
 .section-title-wrap__title {

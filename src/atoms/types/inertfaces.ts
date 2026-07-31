@@ -1,3 +1,4 @@
+import type { CSSProperties, ReactNode } from "react";
 import type { LinkVariants, TextTag, TextVariants } from "./types";
 
 export interface IconProps {
@@ -33,4 +34,21 @@ export interface StatProps {
 
 export interface TagProps {
   text: string;
+}
+
+export interface LazySectionProps {
+  id: string;
+  children: ReactNode;
+  rootMargin?: string;
+  minHeight?: number;
+  skeleton?: ReactNode;
+}
+
+export interface SkeletonProps {
+  variant?: "text" | "circular" | "rectangular";
+  width?: number | string;
+  height?: number | string;
+  animation?: "pulse" | "wave" | false;
+  style?: CSSProperties;
+  className?: string;
 }
