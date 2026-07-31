@@ -5,7 +5,7 @@ import "./About.skeleton.css";
 
 export function AboutSkeleton() {
   return (
-    <Section className="about-skeleton">
+    <Section className="about-skeleton" ariaLabel="Загрузка секции с информацией обо мне">
       <SkeletonTitle />
       <div className="about-skeleton__wrapper">
         <div className="about-skeleton__content">

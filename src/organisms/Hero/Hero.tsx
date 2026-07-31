@@ -26,11 +26,7 @@ export default function Hero() {
           </div>
         </div>
         <picture className="hero__picture">
-          <img
-            src="https://i.postimg.cc/cLdrJ3Cr/4b69fc25-417c-4575-8eb0-2e56c019cc27.avif"
-            alt="Фото"
-            fetchPriority="high"
-          />
+          <img src="hero.jpeg" alt="Фото" fetchPriority="high" />
         </picture>
       </div>
     </Section>

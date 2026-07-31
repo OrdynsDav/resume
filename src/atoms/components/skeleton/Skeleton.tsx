@@ -6,22 +6,23 @@ export function Skeleton({
   variant = "text",
   width,
   height,
-  animation = "pulse",
+  animation = "wave",
   style,
   className = "",
 }: SkeletonProps) {
   const base: CSSProperties = {
     display: "block",
     backgroundColor: "var(--panel-border)",
-    width: width ?? (variant === "text" ? "100%" : undefined),
+    maxWidth: width ?? (variant === "text" ? "100%" : undefined),
     height: height ?? (variant === "text" ? "1.2em" : undefined),
+    width: "100%",
   };
 
   const variantStyle: CSSProperties =
     variant === "circular"
       ? { borderRadius: "50%" }
       : variant === "rectangular"
-        ? { borderRadius: 0 }
+        ? { borderRadius: 8 }
         : { borderRadius: 4, transform: "scale(1, 0.6)", transformOrigin: "0 55%" };
 
   return (

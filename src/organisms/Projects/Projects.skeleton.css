@@ -1,0 +1,8 @@
+.projects-skeleton__wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.projects-skeleton__wrapper .skeleton {
+  min-height: 327px;
+}

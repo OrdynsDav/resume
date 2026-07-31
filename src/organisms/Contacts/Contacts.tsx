@@ -6,7 +6,7 @@ import "./Contacts.css";
 
 export default function Contacts() {
   return (
-    <Section className="contacts" ariaLabel="Мои контакты">
+    <Section className="contacts" ariaLabel="Мои контакты" id="contacts">
       <div className="contacts-box">
         <Text className="contacts-box__title" tag="h2" text="Готов присоединиться к команде" />
         <Text
