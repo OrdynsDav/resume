@@ -2,7 +2,11 @@
   &__wrapper {
     display: grid;
     grid-template-columns: 1.3fr 1fr;
-    gap: 60px;
+    gap: clamp(32px, 6vw, 60px);
+
+    @include respond(mobile, tablet) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__description {

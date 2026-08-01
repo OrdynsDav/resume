@@ -30,7 +30,6 @@ export function LazySection({
     return () => observer.disconnect();
   }, [isVisible, rootMargin]);
 
-  // LazySection.tsx
   useEffect(() => {
     const handler = (e: Event) => {
       if ((e as CustomEvent).detail === id) setIsVisible(true);
@@ -40,7 +39,6 @@ export function LazySection({
   }, [id]);
 
   return (
-    // LazySection.tsx — убираем ручное управление minHeight
     <div
       id={id}
       ref={ref}

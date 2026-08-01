@@ -7,7 +7,14 @@ export function Social() {
     <div className="social">
       {socialList.map(({ id, href, icon, ariaLabel }) => {
         return (
-          <Link key={id} href={href} iconLeft={icon} aria-label={ariaLabel} variant="casual" />
+          <Link
+            key={id}
+            href={href}
+            iconLeft={icon}
+            aria-label={ariaLabel}
+            variant="casual"
+            target="_blank"
+          />
         );
       })}
     </div>

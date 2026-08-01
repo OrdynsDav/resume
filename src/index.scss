@@ -16,6 +16,7 @@
   --panel-border: #ffffff1a;
 
   --color-accent: #2fe88a;
+  --color-dark-gray: #39393b;
 
   --header-height: 72px;
   --scroll-gap: 16px;
@@ -42,6 +43,7 @@ body {
   padding: 0;
   color: var(--text-primary);
   line-height: 1.4;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 ul {

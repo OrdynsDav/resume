@@ -1,5 +1,5 @@
 .section {
-  padding: 110px 0;
+  padding: clamp(48px, 5.8vw + 26px, 110px) 0;
   width: 100%;
   scroll-margin-top: var(--scroll-offset);
 
@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-bottom: 56px;
+    margin-bottom: clamp(28px, 2.63vw + 18px, 56px);
     flex-wrap: wrap;
     text-transform: uppercase;
     scroll-margin-top: var(--scroll-offset);

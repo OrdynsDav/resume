@@ -16,16 +16,16 @@
 }
 
 h1.text {
-  --text-font-size: clamp(2.5rem, 5.4vw, 4rem);
+  --text-font-size: clamp(2.35rem, 5.4vw, 4rem);
 }
 
 h2.text {
-  --text-font-size: clamp(1.625rem, 3vw, 2.125rem);
+  --text-font-size: clamp(1.61rem, 3vw, 2.125rem);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.02em;
 }
 
 h3.text {
-  --text-font-size: clamp(1.0625rem, 1.2vw, 1.1875rem);
+  --text-font-size: clamp(1.061rem, 1.2vw, 1.1875rem);
 }

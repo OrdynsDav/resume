@@ -7,4 +7,74 @@
   .text {
     --text-font-size: 14px;
   }
+
+  &__burger {
+    position: relative;
+    z-index: 100;
+    width: 28px;
+    height: 20px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    span {
+      display: block;
+      height: 4px;
+      width: 100%;
+      border-radius: 10px;
+      background: var(--text-primary);
+      transform-origin: center;
+      transition: transform 0.3s ease-in-out, opacity 0.2s ease-in-out;
+    }
+
+    &--open {
+      span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+
+      span:nth-child(2) {
+        opacity: 0;
+        transform: scaleX(0);
+      }
+
+      span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
+    }
+  }
+
+  &__list--mobile {
+    position: fixed;
+    top: var(--header-height, 62px);
+    left: 0;
+    z-index: 90;
+
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+
+    width: 100%;
+    height: calc(100vh - var(--header-height, 62px));
+    padding: 3rem 2rem;
+
+    background: rgb(54, 54, 55);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.03);
+
+    transform: translateX(-150%);
+    transition: transform 0.5s ease-in-out;
+
+    .nav__link {
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-family: var(--font-secondary);
+    }
+  }
+
+  &__list--open {
+    transform: translateX(0);
+  }
 }

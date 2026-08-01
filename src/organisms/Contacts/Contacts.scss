@@ -2,11 +2,10 @@
   background: var(--panel);
   border: 1px solid var(--panel-border);
   border-radius: 16px;
-  padding: 64px 48px;
+  padding: clamp(32px, 3.01vw + 20.7px, 64px) clamp(20px, 2.63vw + 10.1px, 48px);
   text-align: center;
   position: relative;
   overflow: hidden;
-  backdrop-filter: blur(6px);
 
   &__title {
     font-family: var(--font-secondary);
