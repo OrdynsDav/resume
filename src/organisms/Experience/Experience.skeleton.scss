@@ -7,7 +7,10 @@
   }
 
   &__wrapper {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 32px;
   }
 
   &__dot {
@@ -15,11 +18,5 @@
     left: -40px;
     top: 0;
     z-index: 2;
-  }
-
-  &__text {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
   }
 }

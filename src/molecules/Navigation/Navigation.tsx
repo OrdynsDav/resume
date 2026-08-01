@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import { useMediaQuery } from "../../atoms/hooks/useMediaQuery";
-import { navigationList } from "../../config/navigation.config";
+import { useMediaQuery } from "../../config/hooks/useMediaQuery";
 import { Link } from "../../atoms/components/link/Link";
 import { clsx } from "../../atoms/helpers/clsx";
 import "./Navigation.scss";
+import { useNavigation } from "../../config/hooks/useNavigation";
 
 export function Navigation() {
+  const { navigationList } = useNavigation();
   const isMobile = useMediaQuery("(max-width: 768px)");
   const [isOpen, setIsOpen] = useState(false);
 

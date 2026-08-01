@@ -22,6 +22,8 @@ export default function ExperienceSkeleton() {
                 <Skeleton height={20} width={90} />
                 <Skeleton height={31} width={310} />
                 <Skeleton width={560} />
+                <Skeleton width={560} />
+                <Skeleton width={560} />
               </div>
             </div>
           ))}

@@ -26,7 +26,7 @@ export interface ProjectProps {
 
 export interface TimelineExperienceProps {
   start: number;
-  end: number | "present";
+  end: number | string;
   title: string;
   description: string;
 }

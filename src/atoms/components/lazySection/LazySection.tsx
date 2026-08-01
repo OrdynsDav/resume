@@ -1,6 +1,5 @@
 import { Suspense, useEffect, useRef, useState } from "react";
 import type { LazySectionProps } from "../../types/inertfaces";
-import { FadeIn } from "../fadeIn/FadeIn";
 import "./LazySection.scss";
 
 export function LazySection({
@@ -45,11 +44,7 @@ export function LazySection({
       className="lazy-section"
       style={{ "--min-h": `${minHeight}px` } as React.CSSProperties}
     >
-      {isVisible && (
-        <Suspense fallback={skeleton}>
-          <FadeIn>{children}</FadeIn>
-        </Suspense>
-      )}
+      {isVisible && <Suspense fallback={skeleton}>{children}</Suspense>}
     </div>
   );
 }
