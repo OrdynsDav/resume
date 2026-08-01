@@ -1,6 +1,6 @@
 import { Link } from "../../atoms/components/link/Link.tsx";
 import { socialList } from "../../config/contacts.config.tsx";
-import "./Social.css";
+import "./Social.scss";
 
 export function Social() {
   return (

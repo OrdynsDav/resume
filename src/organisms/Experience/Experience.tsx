@@ -1,7 +1,7 @@
 import { Section } from "../../molecules/Section/Section";
 import { TimelineExperience } from "../../molecules/TimelineExperience/TimelineExperience";
 import type { TimelineExperienceProps } from "../../molecules/types/inertfaces";
-import "./Experience.css";
+import "./Experience.scss";
 
 export default function Experience() {
   const timelineExperience: TimelineExperienceProps[] = [

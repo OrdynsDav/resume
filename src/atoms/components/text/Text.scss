@@ -4,14 +4,15 @@
   margin: 0;
   transition: var(--transition-color);
   line-height: 1.6;
-}
 
-.text--heading {
-  color: var(--text-secondary);
-}
 
-.text--secondary {
-  color: var(--color-accent);
+  &--heading {
+    color: var(--text-secondary);
+  }
+
+  &--secondary {
+    color: var(--color-accent);
+  }
 }
 
 h1.text {

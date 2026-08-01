@@ -3,7 +3,7 @@ import Header from "./organisms/Header/Header";
 import { LazySection } from "./atoms/components/lazySection/LazySection";
 import { AboutSkeleton } from "./organisms/About/About.skeleton";
 import Hero from "./organisms/Hero/Hero";
-import "./App.css";
+import "./App.scss";
 import { scrollToSection } from "./atoms/handlers/scrollToSection";
 import { consumePendingHash } from "./atoms/handlers/pendingHash";
 import { observeHeaderHeight } from "./atoms/handlers/syncHeaderHeight";

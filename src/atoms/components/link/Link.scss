@@ -1,0 +1,81 @@
+.link {
+  --link-font-size: clamp(12px, 0.22321vw + 11.286px, 14.5px);
+  display: flex;
+  align-items: center;
+  gap: 0.55em;
+  font-size: var(--link-font-size);
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition:
+    var(--transition-color), var(--transition-border-color), var(--transition-background-color);
+
+  @include respond(wide) {
+    --link-font-size: clamp(14.5px, 0.3125vw + 10px, 18px);
+  }
+
+  &--primary {
+    padding: 0.8966em 1.6552em;
+    border-radius: 0.55em;
+    background: var(--color-accent);
+    color: var(--text-black);
+    border: 1px solid var(--color-accent);
+
+    &:hover {
+      background-color: transparent;
+      color: var(--color-accent);
+    }
+  }
+
+  &--secondary {
+    padding: 0.8966em 1.6552em;
+    border-radius: 0.55em;
+    background: transparent;
+    color: var(--text);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+
+    &:hover {
+      background-color: var(--color-accent);
+      color: var(--text-black);
+    }
+  }
+
+  &--light {
+    padding: 0;
+    background: none;
+    border: none;
+
+    &:hover {
+      color: var(--text);
+    }
+  }
+
+  &--casual {
+    padding: 0;
+    font-size: calc(var(--link-font-size) * 0.931);
+    /* 13.5px при базе 14.5px */
+    gap: 0.44em;
+    background: none;
+    border: none;
+
+    &:hover {
+      color: var(--text-hover);
+
+      .link__icon svg {
+        color: var(--text-hover);
+      }
+    }
+
+    .link__icon {
+      display: inline-flex;
+      align-items: center;
+      line-height: 0;
+
+      svg {
+        color: inherit;
+      }
+    }
+  }
+}

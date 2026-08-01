@@ -1,0 +1,21 @@
+.about-skeleton {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 60px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--panel-border);
+  }
+}

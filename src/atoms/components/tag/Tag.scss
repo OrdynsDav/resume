@@ -5,9 +5,9 @@
   border-radius: 7px;
   background: var(--panel);
   transition: all 0.2s ease;
-}
 
-.tag:hover {
-  border-color: var(--color-accent);
-  color: var(--text-secondary);
+  &:hover {
+    border-color: var(--color-accent);
+    color: var(--text-secondary);
+  }
 }

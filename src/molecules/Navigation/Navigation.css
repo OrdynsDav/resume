@@ -1,8 +1,0 @@
-.nav__list {
-  display: flex;
-  gap: clamp(1vw, 2vw + 0.5rem, 4vw);
-}
-
-.nav .text {
-  --text-font-size: 14px;
-}

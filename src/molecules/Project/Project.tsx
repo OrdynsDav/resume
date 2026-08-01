@@ -3,7 +3,7 @@ import { Tag } from "../../atoms/components/tag/Tag";
 import { Text } from "../../atoms/components/text/Text";
 import { ArrowIcon } from "../../atoms/icons/ArrowIcon";
 import type { ProjectProps } from "../types/inertfaces";
-import "./Project.css";
+import "./Project.scss";
 
 export function Project({ orderNum, title, description, tags, reposHref }: ProjectProps) {
   return (

@@ -1,6 +1,6 @@
 import { Link } from "../../atoms/components/link/Link";
 import { navigationList } from "../../config/navigation.config";
-import "./Navigation.css";
+import "./Navigation.scss";
 
 export function Navigation() {
   return (

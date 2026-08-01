@@ -1,7 +1,7 @@
 import { Skeleton } from "../../atoms/components/skeleton/Skeleton";
 import { Section } from "../../molecules/Section/Section";
 import { SkeletonTitle } from "../../molecules/SkeletonTitle/SkeletonTitle";
-import "./Experience.skeleton.css";
+import "./Experience.skeleton.scss";
 
 export default function ExperienceSkeleton() {
   return (
@@ -13,7 +13,7 @@ export default function ExperienceSkeleton() {
           {Array.from({ length: 3 }).map((_, i) => (
             <div className="experience-skeleton-timeline__content" key={i}>
               <Skeleton
-                className="experience-skeleton-dot"
+                className="experience-skeleton-timeline__dot"
                 variant="circular"
                 width={12}
                 height={12}

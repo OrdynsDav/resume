@@ -1,0 +1,25 @@
+.experience-skeleton-timeline {
+  display: flex;
+  gap: 32px;
+
+  &__content {
+    position: relative;
+  }
+
+  &__wrapper {
+    display: grid;
+  }
+
+  &__dot {
+    position: absolute;
+    left: -40px;
+    top: 0;
+    z-index: 2;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

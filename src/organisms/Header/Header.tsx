@@ -1,7 +1,7 @@
 import { Container } from "../../atoms/components/container/Container";
 import { Social } from "../../molecules/Social/Social";
 import { Navigation } from "../../molecules/Navigation/Navigation";
-import "./Header.css";
+import "./Header.scss";
 
 export default function Header() {
   return (

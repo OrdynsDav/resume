@@ -1,0 +1,28 @@
+.section {
+  padding: 110px 0;
+  width: 100%;
+  scroll-margin-top: var(--scroll-offset);
+
+  &-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 56px;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    scroll-margin-top: var(--scroll-offset);
+  }
+
+  &-title-wrap__title {
+    font-family: "Space Grotesk", sans-serif;
+  }
+
+  &-title-wrap__num {
+    font-variant-numeric: tabular-nums;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: clamp(26px, 3vw, 34px);
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.28);
+    line-height: 1lh;
+  }
+}

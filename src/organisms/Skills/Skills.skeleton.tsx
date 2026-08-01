@@ -1,7 +1,7 @@
 import { Skeleton } from "../../atoms/components/skeleton/Skeleton";
 import { Section } from "../../molecules/Section/Section";
 import { SkeletonTitle } from "../../molecules/SkeletonTitle/SkeletonTitle";
-import "./Skills.skeleton.css";
+import "./Skills.skeleton.scss";
 
 export function SkillsSkeleton() {
   const groups = [

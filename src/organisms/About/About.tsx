@@ -2,7 +2,7 @@ import { Stat } from "../../atoms/components/stat/Stat";
 import { Text } from "../../atoms/components/text/Text";
 import type { StatProps } from "../../atoms/types/inertfaces";
 import { Section } from "../../molecules/Section/Section";
-import "./About.css";
+import "./About.scss";
 
 export default function About() {
   const stats: StatProps[] = [

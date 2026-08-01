@@ -1,7 +1,7 @@
 import { Suspense, useEffect, useRef, useState } from "react";
 import type { LazySectionProps } from "../../types/inertfaces";
 import { FadeIn } from "../fadeIn/FadeIn";
-import "./LazySection.css";
+import "./LazySection.scss";
 
 export function LazySection({
   children,

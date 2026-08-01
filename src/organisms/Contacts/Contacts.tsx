@@ -2,7 +2,7 @@ import { Link } from "../../atoms/components/link/Link";
 import { Text } from "../../atoms/components/text/Text";
 import { social } from "../../config/contacts.config";
 import { Section } from "../../molecules/Section/Section";
-import "./Contacts.css";
+import "./Contacts.scss";
 
 export default function Contacts() {
   return (

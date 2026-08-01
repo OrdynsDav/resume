@@ -1,6 +1,6 @@
 import type { HTMLAttributes } from "react";
 import type { TextProps } from "../../types/inertfaces";
-import "./Text.css";
+import "./Text.scss";
 import { clsx } from "../../helpers/clsx";
 
 export function Text({

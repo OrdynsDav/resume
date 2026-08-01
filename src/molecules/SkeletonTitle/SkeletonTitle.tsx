@@ -1,5 +1,5 @@
 import { Skeleton } from "../../atoms/components/skeleton/Skeleton";
-import "./SkeletonTitle.css";
+import "./SkeletonTitle.scss";
 
 export function SkeletonTitle() {
   return (

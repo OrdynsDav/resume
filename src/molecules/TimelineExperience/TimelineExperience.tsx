@@ -1,6 +1,6 @@
 import { Text } from "../../atoms/components/text/Text";
 import type { TimelineExperienceProps } from "../types/inertfaces";
-import "./TimelineExperience.css";
+import "./TimelineExperience.scss";
 
 export function TimelineExperience({ start, end, title, description }: TimelineExperienceProps) {
   return (

@@ -2,7 +2,7 @@ import { Link } from "../../atoms/components/link/Link";
 import { Text } from "../../atoms/components/text/Text";
 import { social } from "../../config/contacts.config";
 import { Section } from "../../molecules/Section/Section";
-import "./Hero.css";
+import "./Hero.scss";
 
 export default function Hero() {
   return (

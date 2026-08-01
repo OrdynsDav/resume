@@ -1,6 +1,6 @@
 import { Tag } from "../../atoms/components/tag/Tag";
 import { Section } from "../../molecules/Section/Section";
-import "./Skills.css";
+import "./Skills.scss";
 
 export default function Skills() {
   const groups = [

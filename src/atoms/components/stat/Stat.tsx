@@ -1,6 +1,6 @@
 import type { StatProps } from "../../types/inertfaces";
 import { Text } from "../text/Text";
-import "./Stat.css";
+import "./Stat.scss";
 
 export function Stat({ label, value }: StatProps) {
   return (

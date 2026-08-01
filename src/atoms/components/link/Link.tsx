@@ -1,7 +1,7 @@
 import type { AnchorHTMLAttributes, MouseEvent } from "react";
 import type { LinkProps } from "../../types/inertfaces";
 import { Text } from "../text/Text";
-import "./Link.css";
+import "./Link.scss";
 import { clsx } from "../../helpers/clsx";
 import { scrollToSection } from "../../handlers/scrollToSection";
 

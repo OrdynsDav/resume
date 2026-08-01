@@ -1,6 +1,6 @@
 // FadeIn.tsx
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import "./FadeIn.css";
+import "./FadeIn.scss";
 
 interface FadeInProps {
   children: ReactNode;

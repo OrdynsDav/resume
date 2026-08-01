@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import type { SkeletonProps } from "../../types/inertfaces";
-import "./Skeleton.css";
+import "./Skeleton.scss";
 
 export function Skeleton({
   variant = "text",

@@ -3,7 +3,7 @@ import { slugify } from "../../atoms/helpers/slugify";
 import type { SectionProps } from "../types/inertfaces";
 import { Container } from "../../atoms/components/container/Container";
 import { Text } from "../../atoms/components/text/Text";
-import "./Section.css";
+import "./Section.scss";
 
 export function Section({
   title,

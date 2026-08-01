@@ -1,7 +1,7 @@
 import { Skeleton } from "../../atoms/components/skeleton/Skeleton";
 import { Section } from "../../molecules/Section/Section";
 import { SkeletonTitle } from "../../molecules/SkeletonTitle/SkeletonTitle";
-import "./About.skeleton.css";
+import "./About.skeleton.scss";
 
 export function AboutSkeleton() {
   return (
