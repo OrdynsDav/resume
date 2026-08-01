@@ -5,6 +5,8 @@
 }
 
 :root {
+  --font-secondary: "Space Grotesk", sans-serif;
+  --font-primary: "Roboto", sans-serif;
   --text-primary: #b7bec9;
   --text-secondary: #f3f5f7;
   --text-hover: var(--text-secondary);
@@ -31,6 +33,7 @@ html {
 }
 
 body {
+  font-family: var(--font-primary);
   display: flex;
   flex-direction: column;
   min-height: 100vh;

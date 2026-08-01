@@ -9,7 +9,7 @@
   backdrop-filter: blur(6px);
 
   &__title {
-    font-family: "Space Grotesk", sans-serif;
+    font-family: var(--font-secondary);
     font-size: clamp(26px, 4vw, 38px);
     margin-bottom: 16px;
   }
