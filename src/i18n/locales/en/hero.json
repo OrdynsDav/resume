@@ -1,0 +1,11 @@
+{
+  "sectionLabel": "Hero section",
+  "fullname": "David Akobyan",
+  "role": "Junior+ Frontend Developer",
+  "description": "I develop user interfaces using Next, React, and TypeScript, study the underlying principles of the technologies I use, and I'm ready to take on tasks that go beyond what I've already mastered.",
+  "buttons": {
+    "projects": "View projects",
+    "contact": "Write to me"
+  },
+  "imgAlt": "My photo"
+}

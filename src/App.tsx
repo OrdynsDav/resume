@@ -1,16 +1,16 @@
 import { lazy, useEffect } from "react";
 import Header from "./organisms/Header/Header";
 import { LazySection } from "./atoms/components/lazySection/LazySection";
-import { AboutSkeleton } from "./organisms/About/About.skeleton";
 import Hero from "./organisms/Hero/Hero";
 import "./App.scss";
 import { scrollToSection } from "./atoms/handlers/scrollToSection";
 import { consumePendingHash } from "./atoms/handlers/pendingHash";
 import { observeHeaderHeight } from "./atoms/handlers/syncHeaderHeight";
+import { AboutSkeleton } from "./organisms/About/About.skeleton";
 import { SkillsSkeleton } from "./organisms/Skills/Skills.skeleton";
 import { ProjectsSkeleton } from "./organisms/Projects/Projects.skeleton";
-import ExperienceSkeleton from "./organisms/Experience/Experience.skeleton";
-import ContactsSkeleton from "./organisms/Contacts/Contacts.skeleton";
+import { ExperienceSkeleton } from "./organisms/Experience/Experience.skeleton";
+import { ContactsSkeleton } from "./organisms/Contacts/Contacts.skeleton";
 
 if ("scrollRestoration" in history) {
   history.scrollRestoration = "manual";

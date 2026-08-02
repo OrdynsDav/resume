@@ -2,7 +2,7 @@ import { Section } from "../../molecules/Section/Section";
 import { Skeleton } from "../../atoms/components/skeleton/Skeleton";
 import "./Contacts.skeleton.scss";
 
-export default function ContactsSkeleton() {
+export function ContactsSkeleton() {
   return (
     <Section className="contacts-skeleton" ariaLabel="Загрузка секции с контактами">
       <div className="contacts-box">

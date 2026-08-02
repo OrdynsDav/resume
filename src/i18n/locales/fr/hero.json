@@ -1,0 +1,11 @@
+{
+  "sectionLabel": "Hero section",
+  "fullname": "David Akobyan",
+  "role": "Développeur Frontend Junior+",
+  "description": "Je développe des interfaces utilisateur avec Next, React et TypeScript, j'étudie les principes de fonctionnement des technologies que j'utilise, et je suis prêt à prendre en charge des tâches allant au-delà de ce que j'ai déjà maîtrisé.",
+  "buttons": {
+    "projects": "Voir les projets",
+    "contact": "Écris-moi"
+  },
+  "imgAlt": "My photo"
+}

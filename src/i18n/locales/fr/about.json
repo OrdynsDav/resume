@@ -1,0 +1,25 @@
+{
+  "description": [
+    "J'ai 17 ans, et la programmation est devenue quelque chose de sérieux et durable pour moi. Tout a commencé par de la curiosité : je voulais comprendre comment fonctionnaient les sites que j'utilisais tous les jours. Aujourd'hui, je développe des interfaces avec Next.js, React et TypeScript, en essayant de ne pas me contenter du simple « ça marche ».",
+    "Comprendre les détails compte beaucoup pour moi : ne pas seulement utiliser un outil, mais saisir ce qui se passe en coulisses. C'est pourquoi je ne fuis pas les tâches que je n'ai encore jamais abordées — c'est généralement là qu'on apprend le plus vite. Mon temps libre est surtout consacré à des projets personnels et à la lecture du code des autres, ce qui permet de mieux voir les différentes façons de résoudre un même problème.",
+    "Je suis encore au début de mon parcours et je vois cela comme un avantage : j'ai le temps d'expérimenter sans craindre de me tromper. Je cherche aujourd'hui l'occasion d'appliquer mes compétences sur de vrais projets et de progresser aux côtés de personnes dont je peux apprendre. Jetez un œil à la section projets, ou écrivez-moi — discutons d'une idée ou d'un besoin."
+  ],
+  "bullets": [
+    {
+      "label": "Expérience professionnelle",
+      "value": "2 ans"
+    },
+    {
+      "label": "Langues",
+      "value": "2"
+    },
+    {
+      "label": "Format de travail",
+      "value": "À distance"
+    },
+    {
+      "label": "Développé couché",
+      "value": "80 kg"
+    }
+  ]
+}

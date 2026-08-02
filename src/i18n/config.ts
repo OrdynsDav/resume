@@ -15,7 +15,7 @@ i18n
     fallbackLng: "ru",
     supportedLngs: ["en", "ru", "fr", "de"],
     nonExplicitSupportedLngs: true,
-    ns: ["common", "hero"], // добавляем каждый namespace сюда по мере создания
+    ns: ["common", "hero"],
     defaultNS: "common",
     interpolation: { escapeValue: false },
     detection: {

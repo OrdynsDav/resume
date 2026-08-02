@@ -20,6 +20,7 @@ export interface TextProps {
   className?: string;
   variant?: TextVariants;
   tag?: TextTag;
+  typograf?: boolean;
 }
 
 export interface ContainerProps {

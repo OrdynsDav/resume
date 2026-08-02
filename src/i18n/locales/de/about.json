@@ -1,0 +1,25 @@
+{
+  "description": [
+    "Ich bin 17, und Programmieren ist etwas, in das ich mich ernsthaft und nachhaltig hineingesteigert habe. Alles begann mit Neugier: Ich wollte verstehen, wie die Websites funktionieren, die ich jeden Tag nutze. Aktuell entwickle ich Interfaces mit Next.js, React und TypeScript und versuche, mich nicht mit \"funktioniert – reicht ja\" zufriedenzugeben.",
+    "Mir ist wichtig, die Details zu verstehen: ein Werkzeug nicht nur zu benutzen, sondern zu begreifen, was dahinter passiert. Deshalb gehe ich Aufgaben, an die ich mich noch nie herangewagt habe, nicht aus dem Weg — genau dabei lernt man meist am schnellsten. Meine Freizeit fließt größtenteils in eigene Projekte und das Lesen fremden Codes, denn so sieht man am besten, wie unterschiedlich sich ein und dieselbe Aufgabe lösen lässt.",
+    "Ich stehe noch am Anfang und sehe das als Vorteil: Ich habe Zeit zu experimentieren, ohne Angst vor Fehlern zu haben. Aktuell suche ich die Möglichkeit, meine Fähigkeiten in echten Projekten einzusetzen und gemeinsam mit Menschen zu wachsen, von denen ich lernen kann. Schauen Sie sich den Projektbereich an oder schreiben Sie mir — lassen Sie uns über eine Idee oder Aufgabe sprechen."
+  ],
+  "bullets": [
+    {
+      "label": "Berufserfahrung",
+      "value": "2 Jahre"
+    },
+    {
+      "label": "Sprachen",
+      "value": "2"
+    },
+    {
+      "label": "Arbeitsformat",
+      "value": "Remote"
+    },
+    {
+      "label": "Bankdrücken",
+      "value": "80 kg"
+    }
+  ]
+}

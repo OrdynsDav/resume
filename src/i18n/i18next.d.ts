@@ -1,11 +1,11 @@
 import "i18next";
-import hero from "./locales/ru/hero.json";
-import navigation from "./locales/ru/navigation.json";
-import about from "./locales/ru/about.json";
-import skills from "./locales/ru/skills.json";
-import projects from "./locales/ru/projects.json";
-import experience from "./locales/ru/experience.json";
-import contacts from "./locales/ru/contacts.json";
+import hero from "./locales/en/hero.json";
+import navigation from "./locales/en/navigation.json";
+import about from "./locales/en/about.json";
+import skills from "./locales/en/skills.json";
+import projects from "./locales/en/projects.json";
+import experience from "./locales/en/experience.json";
+import contacts from "./locales/en/contacts.json";
 
 declare module "i18next" {
   interface CustomTypeOptions {

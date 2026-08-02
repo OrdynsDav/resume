@@ -1,0 +1,25 @@
+{
+  "description": [
+    "I'm 17, and programming is something I've gotten seriously and lastingly hooked on. It all started with curiosity: I wanted to understand how the websites I use every day actually work. Right now I build interfaces with Next.js, React, and TypeScript, and I try not to settle for \"it works, good enough.\"",
+    "Understanding the details matters to me: not just using a tool, but grasping what's happening under the hood. That's why I don't shy away from tasks I haven't tackled before — they're usually where you learn the fastest. Most of my free time goes into side projects and reading other people's code, since that makes it easier to see the different ways one problem can be solved.",
+    "I'm early in my journey and see that as an advantage: there's time to experiment and not be afraid of mistakes. Right now I'm looking for a chance to apply my skills on real projects and grow alongside people I can learn from. Check out the projects section, or drop me a message — let's talk through an idea or a task."
+  ],
+  "bullets": [
+    {
+      "label": "Commercial experience",
+      "value": "2 years"
+    },
+    {
+      "label": "Languages",
+      "value": "2"
+    },
+    {
+      "label": "Work format",
+      "value": "Remote"
+    },
+    {
+      "label": "Bench press",
+      "value": "80 kg"
+    }
+  ]
+}

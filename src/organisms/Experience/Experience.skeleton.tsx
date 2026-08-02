@@ -3,7 +3,7 @@ import { Section } from "../../molecules/Section/Section";
 import { SkeletonTitle } from "../../molecules/SkeletonTitle/SkeletonTitle";
 import "./Experience.skeleton.scss";
 
-export default function ExperienceSkeleton() {
+export function ExperienceSkeleton() {
   return (
     <Section id="experiencce-skeleton" ariaLabel="Загрузка секции с опытом">
       <SkeletonTitle />
