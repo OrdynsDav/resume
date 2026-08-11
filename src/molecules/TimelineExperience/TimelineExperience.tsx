@@ -7,7 +7,7 @@ export function TimelineExperience({ start, end, title, description }: TimelineE
     <div className="timeline-item">
       <div className="timeline-item__dot"></div>
       <time className="timeline-item__date">
-        {start}&nbsp;&mdash; {end}
+        {end ? `${start}\u00A0\u2014\u00A0${end}` : start}
       </time>
       <Text className="timeline-item__title" tag="h3" text={title} />
       <Text className="timeline-item__desc" text={description} />

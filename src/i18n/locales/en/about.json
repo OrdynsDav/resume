@@ -7,7 +7,7 @@
   "bullets": [
     {
       "label": "Commercial experience",
-      "value": "2 years"
+      "value": "1 year"
     },
     {
       "label": "Languages",
@@ -18,8 +18,8 @@
       "value": "Remote"
     },
     {
-      "label": "Bench press",
-      "value": "80 kg"
+      "label": "Main stack",
+      "value": "Next, React"
     }
   ]
 }

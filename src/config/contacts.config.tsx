@@ -3,6 +3,7 @@ import { WhatsAppIcon } from "../atoms/icons/WhatsAppIcon";
 import LinkedInIcon from "../atoms/icons/LinkedInIcon";
 import { GitHubIcon } from "../atoms/icons/GitHubIcon";
 import type { Contact } from "./types/interfaces";
+import GmailIcon from "../atoms/icons/GmailIcon";
 
 export const social = {
   telegram: {
@@ -17,14 +18,20 @@ export const social = {
     icon: <GitHubIcon />,
     ariaLabel: "Ссылка на GitHub",
   },
-  whatsapp: {
+  gmail: {
     id: 3,
+    href: "mailto:dav.frontend.developer@gmail.com",
+    icon: <GmailIcon />,
+    ariaLabel: "Ссылка на почту",
+  },
+  whatsapp: {
+    id: 4,
     href: "https://wa.me/79113720788",
     icon: <WhatsAppIcon />,
     ariaLabel: "Ссылка на WhatsApp",
   },
   linkedin: {
-    id: 4,
+    id: 5,
     href: "https://www.linkedin.com/in/david-hakobyan-795754424",
     icon: <LinkedInIcon />,
     ariaLabel: "Ссылка на LinkedIn",

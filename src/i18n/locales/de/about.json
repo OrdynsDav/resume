@@ -7,7 +7,7 @@
   "bullets": [
     {
       "label": "Berufserfahrung",
-      "value": "2 Jahre"
+      "value": "2 Jahr"
     },
     {
       "label": "Sprachen",
@@ -18,8 +18,8 @@
       "value": "Remote"
     },
     {
-      "label": "Bankdrücken",
-      "value": "80 kg"
+      "label": "Tech-Stack",
+      "value": "Next, React"
     }
   ]
 }

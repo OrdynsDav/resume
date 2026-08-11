@@ -22,6 +22,7 @@ export interface ProjectProps {
   description: string;
   tags: TagProps[];
   reposHref: string;
+  siteHref: string;
 }
 
 export interface TimelineExperienceProps {

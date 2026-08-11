@@ -7,7 +7,7 @@
   "bullets": [
     {
       "label": "Expérience professionnelle",
-      "value": "2 ans"
+      "value": "1 an"
     },
     {
       "label": "Langues",
@@ -18,8 +18,8 @@
       "value": "À distance"
     },
     {
-      "label": "Développé couché",
-      "value": "80 kg"
+      "label": "Stack principal",
+      "value": "Next, React"
     }
   ]
 }

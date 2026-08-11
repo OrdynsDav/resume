@@ -21,6 +21,7 @@ export default function Hero() {
               href={social.telegram.href}
               text={t("buttons.contact")}
               variant="secondary"
+              target="_blank"
             />
           </div>
         </div>

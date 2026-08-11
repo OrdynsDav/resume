@@ -1,22 +1,22 @@
 {
   "experience": [
     {
+      "start": 2026,
+      "end": "bis heute",
+      "title": "Freiberuflich",
+      "description": "Ich übernehme Aufträge für die Erstellung von Layouts, Landingpages und kleinen Webanwendungen mit React/Next.js. Ich betreue Projekte eigenständig vom Design bis zum Deployment und kommuniziere direkt mit den Auftraggebern."
+    },
+    {
       "start": 2024,
-      "end": "по настоящее время",
-      "title": "Frontend-стажёр, NoName Studio",
-      "description": "Разрабатываю компоненты интерфейса на React, участвую в код-ревью, чиню баги в проде."
+      "end": "bis heute",
+      "title": "Pskower Genossenschaftskolleg",
+      "description": "Ich studiere ein Fachgebiet im Bereich Softwareentwicklung. Ich verbinde das Studium mit der Arbeit an realen Projekten."
     },
     {
-      "start": 2023,
-      "end": 2023,
-      "title": "2 место на хакатоне HackNight",
-      "description": "За 24 часа собрали с командой MVP сервиса для поиска попутчиков."
-    },
-    {
-      "start": 2021,
-      "end": 2025,
-      "title": "Университет, «Программная инженерия»",
-      "description": "Бакалавриат, специализация — разработка веб-приложений."
+      "start": 2024,
+      "end": "",
+      "title": "Autodidaktisches Studium der Frontend-Entwicklung",
+      "description": "Ich begann mit HTML, CSS und JavaScript, wechselte dann zu React, TypeScript und Next.js. Aktuell lerne ich Go und plane, FullStack-Entwickler zu werden."
     }
   ]
 }

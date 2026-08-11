@@ -1,7 +1,7 @@
 {
   "skills": [
-    { "id": "languages", "title": "Языки", "items": ["JavaScript", "TypeScript", "Go"] },
-    { "id": "frameworks", "title": "Фреймворки", "items": ["React", "Next.js", "Nest.js"] },
-    { "id": "intsruments", "title": "Инструменты", "items": ["Git", "Docker", "Figma", "Postman"] }
+    { "id": "languages", "title": "Langages", "items": ["JavaScript", "TypeScript", "Go"] },
+    { "id": "frameworks", "title": "Frameworks", "items": ["React", "Next.js", "Nest.js"] },
+    { "id": "intsruments", "title": "Outils", "items": ["Git", "Docker", "Figma", "Postman"] }
   ]
 }

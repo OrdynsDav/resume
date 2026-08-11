@@ -2,38 +2,35 @@
   "projects": [
     {
       "orderNum": "01",
-      "title": "TaskFlow",
-      "description": "Трекер задач для небольших команд с досками в стиле канбан и общими дедлайнами.",
-      "tags": [{ "text": "React" }, { "text": "Node.js" }, { "text": "PostgreSQL" }],
-      "reposHref": "#"
+      "title": "GradeBook",
+      "description": "Mobile e-journal app for Pskov Cooperative College with schedule, grades, and notifications.",
+      "tags": [{ "text": "React Native" }, { "text": "Expo" }, { "text": "TypeScript" }],
+      "reposHref": "https://github.com/OrdynsDav/GradeBook",
+      "siteHref": ""
     },
     {
       "orderNum": "02",
-      "title": "WeatherNow",
-      "description": "PWA-приложение погоды с офлайн-режимом и уведомлениями о резкой смене температуры.",
-      "tags": [{ "text": "TypeScript" }, { "text": "Next.js" }, { "text": "REST API" }],
-      "reposHref": "#"
+      "title": "POCHU-PKT",
+      "description": "Redesign of the Pskov Cooperative College website.",
+      "tags": [{ "text": "Next.js" }, { "text": "TypeScript" }, { "text": "React" }],
+      "reposHref": "",
+      "siteHref": "https://pochu-pkt.vercel.app"
     },
     {
       "orderNum": "03",
-      "title": "DevPortfolio",
-      "description": "Конструктор портфолио для разработчиков: JSON на входе — готовая статическая страница на выходе.",
-      "tags": [{ "text": "React" }, { "text": "Vite" }, { "text": "Tailwind" }],
-      "reposHref": "#"
+      "title": "Bitxmind - landing page",
+      "description": "A freelance order where the client provided the design and I implemented it.",
+      "tags": [{ "text": "Next.js" }, { "text": "TypeScript" }, { "text": "React" }],
+      "reposHref": "",
+      "siteHref": "https://bitxmind.com"
     },
     {
       "orderNum": "04",
-      "title": "NoteSync",
-      "description": "Заметки с офлайн-редактированием и синхронизацией между устройствами через WebSocket.",
-      "tags": [{ "text": "React" }, { "text": "WebSocket" }, { "text": "IndexedDB" }],
-      "reposHref": "#"
-    },
-    {
-      "orderNum": "05",
-      "title": "ExpenseLens",
-      "description": "Трекер расходов с распознаванием чеков через OCR и авто-категоризацией трат.",
-      "tags": [{ "text": "TypeScript" }, { "text": "Tesseract.js" }, { "text": "Chart.js" }],
-      "reposHref": "#"
+      "title": "Bitxmind - application",
+      "description": "A freelance order where the client provided the design and I implemented it.",
+      "tags": [{ "text": "Next.js" }, { "text": "TypeScript" }, { "text": "React" }],
+      "reposHref": "",
+      "siteHref": "https://app.bitxmind.com"
     }
   ]
 }

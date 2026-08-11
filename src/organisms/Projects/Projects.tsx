@@ -11,7 +11,7 @@ export default function Projects() {
   return (
     <Section className="projects" orderNum="03" title={t("navigation:projects")}>
       <Splide options={splideSLiderOptions.options}>
-        {projects.map(({ orderNum, title, description, tags, reposHref }, index) => {
+        {projects.map(({ orderNum, title, description, tags, reposHref, siteHref }, index) => {
           return (
             <SplideSlide key={index + orderNum}>
               <Project
@@ -20,6 +20,7 @@ export default function Projects() {
                 description={description}
                 tags={tags}
                 reposHref={reposHref}
+                siteHref={siteHref}
               />
             </SplideSlide>
           );

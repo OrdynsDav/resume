@@ -13,9 +13,13 @@ export default function Contacts() {
         <Text className="contacts-box__title" tag="h2" text={t("title")} />
         <Text className="contacts-box__subtitle" text={t("subTitle")} />
         <div className="contacts-box__cta">
-          <Link href="mailto:davohak2009@gmail.com" text="davohak2009@gmail.com" />
-          <Link href={social.github.href} text="GitHub" variant="secondary" />
-          <Link href={social.linkedin.href} text="LinkedIn" variant="secondary" />
+          <Link
+            href="mailto:dav.frontend.developer@gmail.com"
+            text="dav.frontend.developer@gmail.com"
+            target="_blank"
+          />
+          <Link href={social.github.href} text="GitHub" variant="secondary" target="_blank" />
+          <Link href={social.linkedin.href} text="LinkedIn" variant="secondary" target="_blank" />
         </div>
       </div>
     </Section>

@@ -5,7 +5,7 @@ import { ArrowIcon } from "../../atoms/icons/ArrowIcon";
 import type { ProjectProps } from "../types/inertfaces";
 import "./Project.scss";
 
-export function Project({ orderNum, title, description, tags, reposHref }: ProjectProps) {
+export function Project({ orderNum, title, description, tags, reposHref, siteHref }: ProjectProps) {
   return (
     <article className="project">
       <Text className="project__comment" text={`// ${orderNum}`} />
@@ -18,10 +18,11 @@ export function Project({ orderNum, title, description, tags, reposHref }: Proje
       </div>
       <Link
         className="project__link"
-        href={reposHref}
+        href={reposHref !== "" ? reposHref : siteHref}
         variant="casual"
-        text="Репозиторий"
+        text={reposHref !== "" ? "Репозиторий" : "Сайт"}
         iconRight={<ArrowIcon width={22} height={12} />}
+        target="_blank"
       />
     </article>
   );
