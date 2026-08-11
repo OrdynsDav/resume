@@ -11,7 +11,7 @@ import { SkillsSkeleton } from "./organisms/Skills/Skills.skeleton";
 import { ProjectsSkeleton } from "./organisms/Projects/Projects.skeleton";
 import { ExperienceSkeleton } from "./organisms/Experience/Experience.skeleton";
 import { ContactsSkeleton } from "./organisms/Contacts/Contacts.skeleton";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 if ("scrollRestoration" in history) {
   history.scrollRestoration = "manual";
