@@ -11,6 +11,7 @@ import { SkillsSkeleton } from "./organisms/Skills/Skills.skeleton";
 import { ProjectsSkeleton } from "./organisms/Projects/Projects.skeleton";
 import { ExperienceSkeleton } from "./organisms/Experience/Experience.skeleton";
 import { ContactsSkeleton } from "./organisms/Contacts/Contacts.skeleton";
+import { Analytics } from "@vercel/analytics/next";
 
 if ("scrollRestoration" in history) {
   history.scrollRestoration = "manual";
@@ -33,6 +34,7 @@ function App() {
   }, []);
   return (
     <>
+      <Analytics />
       <div className="app-bg">
         <img src="bg.webp" alt="фон" fetchPriority="high" />
       </div>
